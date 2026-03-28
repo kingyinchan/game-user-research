@@ -8,6 +8,7 @@ REPORTS_DIR = ANALYSIS_DIR / "reports"
 ARTIFACTS_DIR = ANALYSIS_DIR / "artifacts" / "agents"
 RUNS_DIR = ARTIFACTS_DIR / "runs"
 RUNTIME_DIR = ROOT_DIR / "backend" / "runtime"
+FRONTEND_DIR = ROOT_DIR / "frontend"
 
 PROJECT_CONFIG_PATH = ANALYSIS_DIR / "config" / "project.yaml"
 LABELED_COMMENTS_PATH = CLEANED_DATA_DIR / "comments_labeled.csv"

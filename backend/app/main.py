@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
-from backend.app.config import OUTPUT_DIR
+from backend.app.config import FRONTEND_DIR, OUTPUT_DIR
 from backend.app.schemas import (
     CommentsResponse,
     DashboardResponse,
@@ -47,6 +47,8 @@ app.add_middleware(
 )
 
 app.mount("/assets/charts", StaticFiles(directory=str(OUTPUT_DIR)), name="charts")
+if FRONTEND_DIR.exists():
+    app.mount("/studio", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="studio")
 
 
 @app.get("/", include_in_schema=False)

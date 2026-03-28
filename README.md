@@ -41,6 +41,19 @@
 - `python --version` -> `3.11.5`
 - `uv --version` -> `0.10.12`
 
+## 启动后端与 Dashboard
+
+启动 FastAPI：
+
+```bash
+uv run uvicorn backend.app.main:app --reload
+```
+
+启动后可访问：
+
+- API 文档：`http://127.0.0.1:8000/docs`
+- Dashboard：`http://127.0.0.1:8000/studio/`
+
 ## 安装依赖
 
 推荐方式：
