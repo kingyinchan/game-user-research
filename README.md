@@ -41,9 +41,31 @@
 - `python --version` -> `3.11.5`
 - `uv --version` -> `0.10.12`
 
+## 快速体验 Demo
+
+仓库内已包含一份可直接展示的 demo 快照，适合 clone 后快速查看页面和结果。
+
+先安装依赖：
+
+```bash
+uv sync
+```
+
+启动 demo：
+
+```bash
+python demo/run_demo.py
+```
+
+启动后可访问：
+
+- API 文档：`http://127.0.0.1:8000/docs`
+- Dashboard：`http://127.0.0.1:8000/studio/`
+- Demo 快照目录：`demo/data/wuwa_3_2_xigelika/`
+
 ## 启动后端与 Dashboard
 
-启动 FastAPI：
+如需读取当前工作区的 `analysis/` 产物，而不是 demo 快照，可直接启动 FastAPI：
 
 ```bash
 uv run uvicorn backend.app.main:app --reload
@@ -54,11 +76,6 @@ uv run uvicorn backend.app.main:app --reload
 - API 文档：`http://127.0.0.1:8000/docs`
 - Dashboard：`http://127.0.0.1:8000/studio/`
 
-如果你只是想直接查看可展示产物，不想重新跑抓取或标注，可以直接看：
-
-- `demo/data/wuwa_3_2_xigelika/`
-- `python demo/run_demo.py`
-
 ## 安装依赖
 
 推荐方式：
@@ -67,14 +84,14 @@ uv run uvicorn backend.app.main:app --reload
 uv sync
 ```
 
-如果你不用 `uv`，也可以自行用 `pip` 安装 [pyproject.toml](./pyproject.toml) 中列出的依赖。
+如果不使用 `uv`，也可以自行用 `pip` 安装 [pyproject.toml](./pyproject.toml) 中列出的依赖。
 
 ## 配置环境变量
 
 在项目根目录创建 `.env`，至少配置以下变量：
 
 ```env
-OPENAI_API_KEY=你的密钥
+OPENAI_API_KEY=API_KEY
 OPENAI_BASE_URL=https://api.groq.com/openai/v1
 OPENAI_MODEL=llama-3.3-70b-versatile
 ```
@@ -84,11 +101,11 @@ OPENAI_MODEL=llama-3.3-70b-versatile
 说明：
 
 - `llm_label.py` 依赖这些环境变量
-- `agent_runner.py` 只有在你打开 `analysis/config/project.yaml` 里的 `agents.llm.enabled: true` 时才会调用 LLM
+- `agent_runner.py` 只有在 `analysis/config/project.yaml` 里打开 `agents.llm.enabled: true` 时才会调用 LLM
 
 ## 从现在开始怎么跑完整流
 
-如果你希望 Agent 自己串起整条链路，不想手动一条条执行，可以直接使用一键任务：
+如需让 Agent 自动串起整条链路，而不是手动逐步执行，可以直接使用一键任务：
 
 ```bash
 python analysis/agent_runner.py --task full_pipeline_report
@@ -111,7 +128,7 @@ python analysis/agent_runner.py --task full_pipeline_report
 
 ### 方案 A：直接使用当前已有抓取结果
 
-如果你已经有 `crawler/MediaCrawler/data/xhs/jsonl/` 下的抓取数据，这是最直接的方式。
+如果已经有 `crawler/MediaCrawler/data/xhs/jsonl/` 下的抓取数据，这是最直接的方式。
 
 1. 清洗数据
 
@@ -184,7 +201,7 @@ python analysis/agent_runner.py
 - `analysis/artifacts/agents/`
 - `analysis/reports/`
 
-如果你只想让 Agent 自动跑完整流，直接执行：
+如果只需要让 Agent 自动跑完整流，直接执行：
 
 ```bash
 python analysis/agent_runner.py --task full_pipeline_report
@@ -192,7 +209,7 @@ python analysis/agent_runner.py --task full_pipeline_report
 
 ### 方案 B：从抓取开始重跑全流程
 
-如果你要从头重新抓小红书数据，先把外部抓取器克隆到本地 `crawler/MediaCrawler`：
+如果需要从头重新抓小红书数据，先把外部抓取器克隆到本地 `crawler/MediaCrawler`：
 
 ```bash
 git clone https://github.com/NanmiCoder/MediaCrawler.git crawler/MediaCrawler
@@ -237,7 +254,7 @@ python analysis/agent_runner.py
 - `analysis/cleaned_data/comments_labeled.csv`
 - `analysis/output/`
 
-因此如果你现在直接运行 `python analysis/agent_runner.py`：
+因此如果当前直接运行 `python analysis/agent_runner.py`：
 
 - `data_quality_review` 会正常执行
 - `label_review_queue` 和 `insight_report` 会因为缺少标注结果而跳过
@@ -248,7 +265,7 @@ python analysis/agent_runner.py
 
 - `analysis/config/project.yaml`
 
-你通常会改这些字段：
+通常会改这些字段：
 
 - `topic.game`
 - `topic.version`
@@ -259,7 +276,7 @@ python analysis/agent_runner.py
 - `analysis.negative_sentiments`
 - `agents.default_tasks`
 
-这意味着你换一个游戏、角色、版本或专题时，不需要改主流程代码。
+这意味着换一个游戏、角色、版本或专题时，不需要改主流程代码。
 
 ## Agent 层说明
 

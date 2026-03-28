@@ -10,7 +10,7 @@
 
 当前默认快照：`demo/data/wuwa_3_2_xigelika/`
 
-## 一键运行 demo
+## 一键运行 Demo
 
 先安装依赖：
 
@@ -48,4 +48,4 @@ python demo/run_demo.py
 - `_label_cache.jsonl`、`_label_failures.jsonl` 这类运行时缓存
 - 外部抓取器 `MediaCrawler`
 
-如果你想重新跑完整分析，还是使用仓库根目录下的 `analysis/` 和 `backend/` 主流程。
+如需重新跑完整分析，使用仓库根目录下的 `analysis/` 和 `backend/` 主流程。
