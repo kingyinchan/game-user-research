@@ -1,0 +1,40 @@
+COMMAND: C:\Users\jyc17\anaconda3\python.exe C:\game_user_research\analysis\data_cleaning.py
+
+STDOUT:
+==================================================
+小红书数据清洗管线
+==================================================
+
+扫描目录: C:\game_user_research\analysis\../crawler/MediaCrawler/data/xhs/jsonl
+  发现 1 个帖子文件, 1 个评论文件
+
+加载原始数据...
+  [search_contents_2026-03-21.jsonl] 20 条
+  [search_comments_2026-03-21.jsonl] 526 条
+  去重后: 帖子=20, 评论=526
+
+处理帖子数据...
+  完成: 20 条 | 视频=7 | 图文=13
+
+处理评论数据...
+  完成: 526 条 | 有效=488 | 空=38
+  一级评论=526 | 含图=80 | 地域数=40
+
+导出 CSV...
+  -> C:\game_user_research\analysis\cleaned_data\contents_cleaned.csv
+  -> C:\game_user_research\analysis\cleaned_data\comments_cleaned.csv
+
+--- 数据概要 ---
+帖子总数:    20
+评论总数:    526
+涉及帖子:    20
+总点赞:      97,892
+总互动:      111,360
+时间范围:    2025-11-27 09:15:25 ~ 2026-03-21 01:21:45
+
+完成。
+
+STDERR:
+
+
+EXIT_CODE: 0

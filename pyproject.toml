@@ -1,0 +1,19 @@
+[project]
+name = "game-user-research"
+version = "0.1.0"
+description = "小红书游戏评论数据清洗与 LLM 结构化标注"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "jieba",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "tenacity",
+    "tqdm",
+    "pyyaml",
+    "fastapi",
+    "uvicorn",
+]

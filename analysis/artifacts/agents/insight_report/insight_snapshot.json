@@ -1,0 +1,54 @@
+{
+  "sentiment_counts": {
+    "positive": 256,
+    "neutral": 157,
+    "negative": 57,
+    "mixed": 18
+  },
+  "top_negative_modules": [
+    [
+      "performance_bug",
+      30
+    ],
+    [
+      "gacha_character",
+      28
+    ],
+    [
+      "combat_strength",
+      9
+    ],
+    [
+      "story_quest",
+      5
+    ],
+    [
+      "progression_resource",
+      2
+    ]
+  ],
+  "top_target_negative_modules": [
+    [
+      "gacha_character",
+      19
+    ],
+    [
+      "performance_bug",
+      19
+    ],
+    [
+      "combat_strength",
+      5
+    ],
+    [
+      "story_quest",
+      2
+    ],
+    [
+      "progression_resource",
+      1
+    ]
+  ],
+  "high_churn_risk": 6,
+  "high_pay_risk": 1
+}

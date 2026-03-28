@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+backend/runtime/
+crawler/MediaCrawler/data/
+analysis/cleaned_data/_label_cache.jsonl
+analysis/cleaned_data/_label_failures.jsonl
+analysis/artifacts/agents/runs/

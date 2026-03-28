@@ -1,0 +1,20 @@
+{
+  "total_valid_comments": 488,
+  "cache_size": 488,
+  "remaining_unlabeled": 0,
+  "route_counter": {
+    "cached": 63,
+    "llm_pending": 324,
+    "rule": 95,
+    "reuse": 6,
+    "llm_success": 324
+  },
+  "route_reason_counter": {
+    "rule_neutral_question": 58,
+    "rule_target_positive": 8,
+    "reuse_exact_text": 6,
+    "rule_performance_negative": 27,
+    "rule_social_noise": 2
+  },
+  "generated_at": "2026-03-28 13:19:20"
+}

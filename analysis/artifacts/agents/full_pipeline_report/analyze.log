@@ -1,0 +1,61 @@
+COMMAND: C:\Users\jyc17\anaconda3\python.exe C:\game_user_research\analysis\analyze.py
+
+STDOUT:
+==================================================
+标注结果分析管线
+==================================================
+
+项目: 鸣潮 3.2 西格莉卡专题
+负面标签: ['negative', 'mixed']
+
+加载数据: C:\game_user_research\analysis\cleaned_data\comments_labeled.csv
+  已加载 526 条记录
+  已标注: 488 条
+
+执行分析...
+
+============================================================
+  鸣潮 3.2 西格莉卡专题
+============================================================
+
+--- 基础统计 ---
+  总评论数:          488
+  已标注:            488
+  版本相关:          0
+  西格莉卡相关:  14
+
+--- 情感分布 ---
+  neutral     :  451 (92.4%)
+  positive    :   32 (6.6%)
+  negative    :    4 (0.8%)
+  mixed       :    1 (0.2%)
+
+--- 负面分析 ---
+  负面评论总数:      5
+  版本相关负面:      0
+
+--- 西格莉卡相关负面: 模块分布 ---
+  抽卡/角色           : 1
+  战斗/强度           : 1
+
+--- 流失风险 ---
+  low         : 488
+
+--- 付费风险 ---
+  low         : 487
+  medium      : 1
+
+============================================================
+
+生成图表 -> C:\game_user_research\analysis\output
+  已保存: sentiment_distribution.png
+  跳过: negative_module_distribution (无数据)
+  已保存: topic_negative_distribution.png
+  已保存: risk_distribution.png
+
+完成。图表已保存到: C:\game_user_research\analysis\output
+
+STDERR:
+
+
+EXIT_CODE: 0

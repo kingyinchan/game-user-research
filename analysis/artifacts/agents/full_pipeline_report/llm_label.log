@@ -1,0 +1,1381 @@
+COMMAND: C:\Users\jyc17\anaconda3\python.exe C:\game_user_research\analysis\llm_label.py
+
+STDOUT:
+==================================================
+LLM 结构化标注管线
+==================================================
+
+项目配置:
+  游戏: 鸣潮
+  目标: 西格莉卡
+  别名: 小橘子, 橘橘宝, 耙耙柑, 粑粑柑, 西西, 西格
+
+加载数据: C:\game_user_research\analysis\cleaned_data\comments_cleaned.csv
+  总评论: 526 条
+  有效评论: 488 条（跳过空评论）
+
+检查缓存...
+  已加载缓存: 9 条
+  待处理: 479 条 | 已完成: 9 条
+
+开始标注 (模型: llama-3.3-70b-versatile)...
+
+  标注失败 [69b8fb7300000000020342e1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97960, Requested 2187. Please try again in 2m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbcc96000000000202ab93]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97954, Requested 2184. Please try again in 1m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbcaba0000000015017238]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97948, Requested 2176. Please try again in 1m47.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69babe0f000000001400b2d3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97943, Requested 2179. Please try again in 1m45.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb90f60000000002036efc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97937, Requested 2177. Please try again in 1m38.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b51c0d000000000d01173b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97931, Requested 2202. Please try again in 1m54.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc9460000000001400828e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97926, Requested 2284. Please try again in 3m1.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b545b6000000001d00b427]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97920, Requested 2180. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b542ff000000000d011921]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97915, Requested 2196. Please try again in 1m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b7bf0c000000000f01fbc7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97909, Requested 2192. Please try again in 1m27.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52b1b00000000140099c7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97904, Requested 2192. Please try again in 1m22.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b53824000000000f02d7c2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97898, Requested 2184. Please try again in 1m10.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52a1f000000001500b684]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97892, Requested 2211. Please try again in 1m28.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b51b80000000001803934a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97887, Requested 2189. Please try again in 1m5.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b5cf27000000001500fadc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97881, Requested 2227. Please try again in 1m33.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52055000000000d0360d6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97874, Requested 2205. Please try again in 1m8.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b54230000000000d01070c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99995, Requested 2176. Please try again in 31m15.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b67a350000000002034622]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99990, Requested 2187. Please try again in 31m20.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b5249700000000180222e9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 2179. Please try again in 31m8.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc6f2600000000140089f1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99978, Requested 2191. Please try again in 31m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69babb62000000000f019eb8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99972, Requested 2183. Please try again in 31m1.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b6d03d0000000009005f78]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99967, Requested 2213. Please try again in 31m23.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb8e64000000000103e343]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99961, Requested 2186. Please try again in 30m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b523b9000000001400a523]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99956, Requested 2187. Please try again in 30m51.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52a1b000000001101b295]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99950, Requested 2181. Please try again in 30m41.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbadda000000000c030588]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99944, Requested 2183. Please try again in 30m37.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbfbbd0000000016016778]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99939, Requested 2177. Please try again in 30m28.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b54f89000000000c033179]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99933, Requested 2205. Please try again in 30m47.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b76747000000000c033ef3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99927, Requested 2195. Please try again in 30m33.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b6cc4e0000000015005aa5]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99922, Requested 2117. Please try again in 29m21.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b530cb000000000f02abdb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99916, Requested 2190. Please try again in 30m19.583999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b6e93f000000000f02e028]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 2196. Please try again in 30m19.583999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8ba4a000000000202b0de]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99905, Requested 2131. Please try again in 29m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b7702b00000000150124af]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99899, Requested 2112. Please try again in 28m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bdf2a800000000160160be]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99894, Requested 2117. Please try again in 28m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b0c9220000000002028678]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99888, Requested 2115. Please try again in 28m50.591999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba6ea50000000014009a87]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99882, Requested 2114. Please try again in 28m44.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b77e2a0000000015009e82]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99877, Requested 2106. Please try again in 28m33.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd3f1d000000000c032db4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99871, Requested 2106. Please try again in 28m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba435f000000000f02e101]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 2102. Please try again in 28m20.351999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd3547000000000f025ade]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99860, Requested 2102. Please try again in 28m15.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b6e136000000000f02d13a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99855, Requested 2104. Please try again in 28m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd2014000000001803b51e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99849, Requested 2104. Please try again in 28m7.391999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b04637000000000c0335c1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99843, Requested 2118. Please try again in 28m14.303999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bca4f300000000050397b3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99837, Requested 2110. Please try again in 28m2.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b04d27000000001500077c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99832, Requested 2105. Please try again in 27m53.567999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbe0c1000000000202a0e8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99826, Requested 2106. Please try again in 27m49.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b04e3a0000000015002159]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99821, Requested 2107. Please try again in 27m45.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbd122000000001400ac59]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99815, Requested 2105. Please try again in 27m38.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8e6a7000000001601719d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99810, Requested 2103. Please try again in 27m32.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7717000000000202af0b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99804, Requested 2103. Please try again in 27m27.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b044ec000000000f019d52]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99799, Requested 2103. Please try again in 27m23.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb6e730000000014008809]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99793, Requested 2106. Please try again in 27m20.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b04cfd00000000180211a5]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99787, Requested 2108. Please try again in 27m17.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b279090000000009005668]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99782, Requested 2102. Please try again in 27m7.775999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b2a332000000001500201c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99776, Requested 2106. Please try again in 27m6.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b0d731000000001400907d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99770, Requested 2107. Please try again in 27m1.727999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b176d3000000000f01a275]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99764, Requested 2103. Please try again in 26m53.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b586d2000000000f00ca69]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99759, Requested 2103. Please try again in 26m48.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b157fa000000001101b8de]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99753, Requested 2110. Please try again in 26m49.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b0df54000000000d034ae3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99748, Requested 2102. Please try again in 26m38.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b0ca580000000016016527]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99742, Requested 2108. Please try again in 26m38.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b0b9ec00000000160147ee]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99736, Requested 2110. Please try again in 26m34.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b048560000000015009ad4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99731, Requested 2104. Please try again in 26m25.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba7f2000000000d03fdc2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99725, Requested 2140. Please try again in 26m51.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb72c700000000020344a4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99720, Requested 2110. Please try again in 26m21.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc2a1f000000000103c9c2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99714, Requested 2185. Please try again in 27m20.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc2b130000000003011791]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99709, Requested 2115. Please try again in 26m15.936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd71f20000000009034e57]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99703, Requested 2198. Please try again in 27m22.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7f6a0000000009034d0f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99697, Requested 2109. Please try again in 26m0.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd8045000000000103dda7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99692, Requested 2110. Please try again in 25m56.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbb41200000000010047ac]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99686, Requested 2107. Please try again in 25m49.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb85ef000000000d013c2e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99681, Requested 2211. Please try again in 27m14.687999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb962b0000000003011685]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99675, Requested 2119. Please try again in 25m50.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd27ac000000000503b9f3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99670, Requested 2127. Please try again in 25m52.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc375000000000f024148]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99664, Requested 2124. Please try again in 25m44.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7b43000000000d035535]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99658, Requested 2106. Please try again in 25m24.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb672a0000000019001593]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99653, Requested 2114. Please try again in 25m26.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba86a0000000018020ddf]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99647, Requested 2116. Please try again in 25m23.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb939a000000000103c5e3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99642, Requested 2105. Please try again in 25m9.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc0bae000000000f01f8e8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99636, Requested 2196. Please try again in 26m22.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb68b80000000001007ff6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99630, Requested 2113. Please try again in 25m5.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd11e1000000001500f721]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 2132. Please try again in 25m18.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb851b0000000009037b5d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99619, Requested 2110. Please try again in 24m53.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbcc1c000000000d037102]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99614, Requested 2111. Please try again in 24m50.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbcd9f000000000c030eb1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99608, Requested 2116. Please try again in 24m49.535999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb8175000000000f01b1d2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99602, Requested 2119. Please try again in 24m46.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7dcd00000000010073d6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99597, Requested 2110. Please try again in 24m34.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb839e00000000150020b1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99591, Requested 2112. Please try again in 24m31.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb875100000000010070e7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99586, Requested 2111. Please try again in 24m26.207999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb815c000000001d00c197]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99580, Requested 2118. Please try again in 24m27.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcbfe6000000000d0122bc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99575, Requested 2111. Please try again in 24m16.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc0ff4000000001400a58f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99569, Requested 2120. Please try again in 24m19.295999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbbada0000000032003fd3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99563, Requested 2118. Please try again in 24m12.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b42a150000000009004322]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99558, Requested 2140. Please try again in 24m27.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4556f00000000160158cb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99552, Requested 2124. Please try again in 24m8.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b41f7100000000150119d9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99547, Requested 2133. Please try again in 24m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd692a000000000d03dfc7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99541, Requested 2104. Please try again in 23m41.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b60b14000000000103c989]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99536, Requested 2145. Please try again in 24m12.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b42ce4000000001500fb06]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99530, Requested 2115. Please try again in 23m41.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b43fb400000000090075ec]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99525, Requested 2118. Please try again in 23m39.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b43e33000000000d010e0a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99519, Requested 2201. Please try again in 24m46.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b41c220000000005039a0c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99514, Requested 2112. Please try again in 23m24.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b42c80000000000f01a4fa]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99508, Requested 2126. Please try again in 23m31.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b427fa000000000202b764]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99503, Requested 2127. Please try again in 23m28.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b963ae000000001802322a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99497, Requested 2131. Please try again in 23m26.591999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b596530000000016016669]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99492, Requested 2128. Please try again in 23m19.679999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b423910000000015006e3b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 2106. Please try again in 22m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b583b4000000000f01aed3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 2117. Please try again in 23m0.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b432a0000000000202a272]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99475, Requested 2109. Please try again in 22m48.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b462630000000002036272]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99470, Requested 2114. Please try again in 22m48.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b444c7000000000f0245b4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99464, Requested 2117. Please try again in 22m45.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b583640000000015015925]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99459, Requested 2108. Please try again in 22m33.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b466ab000000001400a5c2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99453, Requested 2113. Please try again in 22m33.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4c3060000000015005597]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99447, Requested 2123. Please try again in 22m36.479999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4662f0000000005039d51]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99441, Requested 2137. Please try again in 22m43.391999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc1e3e000000000103e51c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99436, Requested 2101. Please try again in 22m7.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4b1ca0000000003013d7f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99430, Requested 2104. Please try again in 22m5.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4dbc40000000002034eff]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99424, Requested 2105. Please try again in 22m1.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b656d000000000050399d8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99418, Requested 2110. Please try again in 22m0.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b550fd0000000009006207]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99413, Requested 2110. Please try again in 21m55.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc85710000000009004707]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99407, Requested 2102. Please try again in 21m43.775999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b92c99000000000f026a03]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99402, Requested 2112. Please try again in 21m48.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b7930a000000000103fa14]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99397, Requested 2145. Please try again in 22m12.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b600bc000000000503bd92]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99391, Requested 2108. Please try again in 21m35.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4e840000000000d03601f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99385, Requested 2111. Please try again in 21m32.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b7b85a000000000103f506]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99380, Requested 2104. Please try again in 21m22.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b89d55000000000503be8b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99374, Requested 2108. Please try again in 21m20.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b909210000000015014278]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99368, Requested 2105. Please try again in 21m12.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4e755000000000202b400]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99362, Requested 2112. Please try again in 21m13.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4c2b1000000000203781b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99357, Requested 2122. Please try again in 21m17.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b63f1a00000000150019ae]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99351, Requested 2111. Please try again in 21m3.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4b917000000001500fe1b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99346, Requested 2108. Please try again in 20m56.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52bdf000000000f00cd88]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99340, Requested 2105. Please try again in 20m48.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4d9f2000000001d00d53c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99335, Requested 2121. Please try again in 20m57.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52e2d000000000202bc70]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99329, Requested 2103. Please try again in 20m37.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b77e4a000000001101a03b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99324, Requested 2106. Please try again in 20m35.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b69f17000000000f02c476]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99318, Requested 2113. Please try again in 20m36.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4c0cf000000000d0106a7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99312, Requested 2110. Please try again in 20m28.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b57232000000000103dc20]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99307, Requested 2108. Please try again in 20m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b5463700000000300273db]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99301, Requested 2101. Please try again in 20m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b52026000000000903645d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99295, Requested 2105. Please try again in 20m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4e2ae000000000d037e19]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99289, Requested 2110. Please try again in 20m8.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4d4d2000000001500b6b2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99284, Requested 2137. Please try again in 20m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b5897f00000000010076a8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99278, Requested 2105. Please try again in 19m54.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b511a20000000014008314]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99272, Requested 2104. Please try again in 19m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a2ecc90000000009036e8c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99267, Requested 2115. Please try again in 19m54.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69aa7a51000000000c016806]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99261, Requested 2107. Please try again in 19m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4b4c00000000002035a5b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99256, Requested 2112. Please try again in 19m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd59f2000000001501640f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99250, Requested 2113. Please try again in 19m37.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a576b6000000000f0270a6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99244, Requested 2138. Please try again in 19m54.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a47539000000001500de3b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99238, Requested 2119. Please try again in 19m32.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a2ce6300000000050395da]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99233, Requested 2108. Please try again in 19m18.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a405d40000000008030eed]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99227, Requested 2109. Please try again in 19m14.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a32d340000000006033d08]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99222, Requested 2109. Please try again in 19m9.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a676a7000000000c015dbb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99216, Requested 2114. Please try again in 19m9.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a42757000000000600fec5]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99211, Requested 2106. Please try again in 18m57.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a33ec50000000008032370]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99205, Requested 2107. Please try again in 18m53.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a322850000000005030676]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99200, Requested 2112. Please try again in 18m53.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b3cd7a0000000015013fc9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99194, Requested 2107. Please try again in 18m44.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a7b8ba000000000c016956]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99189, Requested 2110. Please try again in 18m42.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a41af100000000050399a4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99183, Requested 2103. Please try again in 18m31.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a2f58c0000000009035ae9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99177, Requested 2106. Please try again in 18m28.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a2ee58000000000600adff]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99172, Requested 2104. Please try again in 18m22.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69a41070000000000600f1b2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99166, Requested 2113. Please try again in 18m25.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbcbdc000000000c0335ac]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99161, Requested 2110. Please try again in 18m18.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbb2f3000000000c03062c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99155, Requested 2156. Please try again in 18m52.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbb98d000000000d03eee2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99149, Requested 2115. Please try again in 18m12.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbbb06000000001500ef30]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99144, Requested 2151. Please try again in 18m38.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbabec000000000103ffa3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99138, Requested 2108. Please try again in 17m56.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbf494000000001d00b9f4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99133, Requested 2109. Please try again in 17m53.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd204e000000000d03632f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99127, Requested 2112. Please try again in 17m50.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc44160000000018023d8e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99122, Requested 2122. Please try again in 17m54.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbb923000000003102d201]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99116, Requested 2130. Please try again in 17m56.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbf073000000000f00f4ef]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99110, Requested 2108. Please try again in 17m32.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc24b00000000010068f9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99104, Requested 2111. Please try again in 17m29.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbe31300000000160170cb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99099, Requested 2110. Please try again in 17m24.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc202a00000000150086ff]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99093, Requested 2141. Please try again in 17m46.175999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbf161000000001500a8da]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99088, Requested 2110. Please try again in 17m15.071999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbbeff00000000090369fe]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99083, Requested 2122. Please try again in 17m21.119999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbbf8b000000000f01d1ce]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99077, Requested 2122. Please try again in 17m15.936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbfdf1000000000c032d48]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99072, Requested 2118. Please try again in 17m8.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc13fe0000000019002bda]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99066, Requested 2104. Please try again in 16m50.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc0d5d000000001802077a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99060, Requested 2104. Please try again in 16m45.695999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc2a16000000000f00cae2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99055, Requested 2126. Please try again in 17m0.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbdcaf000000000503bbfa]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99049, Requested 2115. Please try again in 16m45.695999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc2ed50000000015009cc3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99044, Requested 2110. Please try again in 16m37.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc9e20000000014030f8f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99038, Requested 2112. Please try again in 16m33.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc0cd0000000016014ada]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99033, Requested 2120. Please try again in 16m36.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc336000000001400a5b4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99027, Requested 2105. Please try again in 16m18.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc476000000000d010cf3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99021, Requested 2111. Please try again in 16m18.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbe68400000000020341bd]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99016, Requested 2123. Please try again in 16m24.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbd30f000000000d034e75]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99010, Requested 2106. Please try again in 16m4.223999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993d11e0000000004002d11]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99005, Requested 2109. Please try again in 16m2.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69939f7c000000000f02ab62]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98999, Requested 2114. Please try again in 16m1.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993484100000000060332bc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98994, Requested 2112. Please try again in 15m55.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699355e90000000015016f4e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98988, Requested 2114. Please try again in 15m52.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993b0010000000008031a2c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98982, Requested 2126. Please try again in 15m57.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69936ecd000000000b03532f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98977, Requested 2139. Please try again in 16m4.223999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699416410000000005030e77]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98972, Requested 2113. Please try again in 15m37.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69941a4800000000050336c6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98966, Requested 2111. Please try again in 15m30.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699cfc7e000000000601d64b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98961, Requested 2109. Please try again in 15m24.479999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699351210000000008031f77]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98955, Requested 2103. Please try again in 15m14.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ae03e70000000003011dba]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98949, Requested 2106. Please try again in 15m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699370d400000000040034f7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98943, Requested 2115. Please try again in 15m14.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699346b0000000000600cb8e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98938, Requested 2107. Please try again in 15m2.879999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699c4b5a00000000040007c2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98932, Requested 2106. Please try again in 14m56.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993453c0000000003012838]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98927, Requested 2115. Please try again in 15m0.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699349610000000019000976]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98921, Requested 2110. Please try again in 14m50.784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993cb16000000000600de32]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98916, Requested 2118. Please try again in 14m53.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699355fc00000000180233df]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98910, Requested 2111. Please try again in 14m42.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699353e40000000006033e6c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98904, Requested 2103. Please try again in 14m30.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69935f13000000000b0349f9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98899, Requested 2109. Please try again in 14m30.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69936544000000000b036a2e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98894, Requested 2128. Please try again in 14m43.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69939cba000000000600a1da]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98888, Requested 2109. Please try again in 14m21.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69935345000000000f01fc42]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98882, Requested 2108. Please try again in 14m15.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69939cf8000000000d0109cf]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98877, Requested 2108. Please try again in 14m11.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [699424d300000000090074ab]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98871, Requested 2119. Please try again in 14m15.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6993c44800000000080300ee]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98865, Requested 2130. Please try again in 14m19.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69935e2e000000000603394a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98860, Requested 2102. Please try again in 13m51.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba7834000000001d00989e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98854, Requested 2115. Please try again in 13m57.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba9977000000000c033311]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98848, Requested 2119. Please try again in 13m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bab6bd000000000f00e941]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98843, Requested 2119. Please try again in 13m51.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba6d540000000015009c4c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98837, Requested 2119. Please try again in 13m45.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc29bc000000001500d162]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98832, Requested 2107. Please try again in 13m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba7003000000000202ac62]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98826, Requested 2118. Please try again in 13m35.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69baa82b00000000020375f9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98821, Requested 2110. Please try again in 13m24.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcf6f9000000001501349d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98815, Requested 2201. Please try again in 14m37.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba931c000000000c030444]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98810, Requested 2109. Please try again in 13m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba8633000000000d03f7a3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98804, Requested 2141. Please try again in 13m36.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcac5400000000310019c9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98799, Requested 2120. Please try again in 13m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcaa57000000001500ce5d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98793, Requested 2128. Please try again in 13m15.743999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bace68000000000c032699]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98788, Requested 2112. Please try again in 12m57.599999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba6c9b000000000d035e1d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98782, Requested 2119. Please try again in 12m58.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb02e2000000000900746f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98776, Requested 2123. Please try again in 12m56.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba771a000000000f02e97b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98771, Requested 2108. Please try again in 12m39.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba9d2d0000000015002829]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98765, Requested 2115. Please try again in 12m40.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69baa18a00000000150164ec]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98759, Requested 2133. Please try again in 12m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b903e4000000000d03f48f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98754, Requested 2116. Please try again in 12m31.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8e10d000000001d00fa6a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98748, Requested 2111. Please try again in 12m22.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8d1aa0000000019001491]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98743, Requested 2113. Please try again in 12m19.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8cdfb0000000015014536]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98737, Requested 2114. Please try again in 12m15.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba26e2000000000100706d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98731, Requested 2119. Please try again in 12m14.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8d5e8000000000103e7ef]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98726, Requested 2107. Please try again in 11m59.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b962730000000015000cf6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98720, Requested 2107. Please try again in 11m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b90445000000000103d383]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98714, Requested 2117. Please try again in 11m57.983999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8dd210000000016015e2b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98709, Requested 2114. Please try again in 11m51.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb252a0000000002035b95]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98703, Requested 2114. Please try again in 11m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8dbc9000000000c030fde]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98698, Requested 2108. Please try again in 11m36.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8dce50000000015017d66]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98692, Requested 2107. Please try again in 11m30.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b904db0000000015009ace]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98687, Requested 2111. Please try again in 11m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8e5680000000011019591]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98681, Requested 2103. Please try again in 11m17.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8e4ca000000000f00cfab]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98676, Requested 2116. Please try again in 11m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bab34200000000010065b6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98670, Requested 2108. Please try again in 11m12.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8dbb90000000001006d24]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98665, Requested 2115. Please try again in 11m13.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b8dba00000000001006859]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98659, Requested 2103. Please try again in 10m58.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69841466000000000d011ceb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98654, Requested 2109. Please try again in 10m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69841759000000000503ae71]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98648, Requested 2118. Please try again in 11m1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6984304a000000000d010d6f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98643, Requested 2120. Please try again in 10m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69848919000000000800c46c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98637, Requested 2108. Please try again in 10m43.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6984cd67000000000601c06b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98631, Requested 2123. Please try again in 10m51.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69867e9b0000000008033bff]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98626, Requested 2115. Please try again in 10m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698419bf0000000014033a06]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98620, Requested 2122. Please try again in 10m41.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698416d3000000001900197d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98615, Requested 2113. Please try again in 10m28.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6984145f000000000800eb2d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98609, Requested 2110. Please try again in 10m21.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698434bd0000000006033fc0]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98604, Requested 2115. Please try again in 10m21.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69841798000000000503b60f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98598, Requested 2119. Please try again in 10m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69841ebb0000000006032245]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98593, Requested 2110. Please try again in 10m7.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698412ae000000000c00a55f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98588, Requested 2103. Please try again in 9m57.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69853a37000000001d00af58]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98582, Requested 2104. Please try again in 9m52.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698459340000000011019b56]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98576, Requested 2110. Please try again in 9m52.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69842870000000000800caf0]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98571, Requested 2126. Please try again in 10m2.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6985a451000000000b034233]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98565, Requested 2116. Please try again in 9m48.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698463cf000000000f02f180]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98559, Requested 2104. Please try again in 9m32.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69843267000000000f02806c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98554, Requested 2110. Please try again in 9m33.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69849b3b0000000009022b37]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98548, Requested 2142. Please try again in 9m56.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69926b62000000000601d763]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98542, Requested 2113. Please try again in 9m25.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6986ef55000000000b035aac]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98537, Requested 2123. Please try again in 9m30.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698488110000000006008e6a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98531, Requested 2113. Please try again in 9m16.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698497a6000000000600a5a8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98525, Requested 2118. Please try again in 9m15.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69896688000000000600ef8e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98520, Requested 2106. Please try again in 9m0.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [6984de04000000000c00a2b8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98514, Requested 2105. Please try again in 8m54.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [698435cc000000000600f9ec]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98509, Requested 2120. Please try again in 9m3.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69848432000000000600f13d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98503, Requested 2108. Please try again in 8m47.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69845d39000000000600d2dd]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98497, Requested 2126. Please try again in 8m58.272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b44a6c0000000018038423]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98492, Requested 2109. Please try again in 8m39.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4080b0000000005038afc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98486, Requested 2116. Please try again in 8m40.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b400530000000002029a23]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98481, Requested 2105. Please try again in 8m26.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b535af000000000f01d904]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98475, Requested 2103. Please try again in 8m19.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b64869000000000d0131eb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98470, Requested 2113. Please try again in 8m23.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b5280c000000001501120a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98464, Requested 2114. Please try again in 8m19.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b77d350000000015007a4a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98458, Requested 2118. Please try again in 8m17.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4b2b2000000001500ac23]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98453, Requested 2106. Please try again in 8m2.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b7c533000000000f018630]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98447, Requested 2110. Please try again in 8m1.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4da75000000000c032ca1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98442, Requested 2118. Please try again in 8m3.84s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b405a0000000001d00a69e]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98436, Requested 2114. Please try again in 7m55.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b43a570000000003010d49]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98430, Requested 2113. Please try again in 7m49.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b444cb000000000103c0db]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98425, Requested 2118. Please try again in 7m49.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4494300000000090351ff]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98419, Requested 2113. Please try again in 7m39.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b44acc0000000002028536]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98414, Requested 2104. Please try again in 7m27.551999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b43fea0000000001006634]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98408, Requested 2106. Please try again in 7m24.095999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b40729000000001101b25d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98402, Requested 2103. Please try again in 7m16.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4ba1f000000000c0309ec]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98396, Requested 2103. Please try again in 7m11.135999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b436d10000000002029588]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98390, Requested 2104. Please try again in 7m6.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b4d55c000000000f02ebc6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98385, Requested 2114. Please try again in 7m11.135999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b40017000000000d03ddf9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98379, Requested 2102. Please try again in 6m55.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b40e260000000015006512]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98374, Requested 2102. Please try again in 6m51.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b65ffc0000000003011fb2]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98368, Requested 2105. Please try again in 6m48.671999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbd0dd0000000002029696]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98362, Requested 2102. Please try again in 6m40.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd5ed4000000000d034e8b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98357, Requested 2125. Please try again in 6m56.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd0ab900000000150019cc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98351, Requested 2108. Please try again in 6m36.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcde80000000001500fa22]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98345, Requested 2102. Please try again in 6m26.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bd8f480000000032003459]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98340, Requested 2145. Please try again in 6m59.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcafad000000000d035f0a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98334, Requested 2104. Please try again in 6m18.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbd49b000000000c0305f1]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98328, Requested 2103. Please try again in 6m12.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bcf3260000000002028bc7]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98323, Requested 2102. Please try again in 6m7.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba8af000000001500c6f9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98317, Requested 2104. Please try again in 6m3.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc347a000000001400a918]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98311, Requested 2107. Please try again in 6m1.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbeb3d000000000d03d90d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98306, Requested 2104. Please try again in 5m54.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc307200000000150022e6]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98300, Requested 2119. Please try again in 6m2.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb9b35000000000c031ebc]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98295, Requested 2103. Please try again in 5m43.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc2ac1000000001400b3db]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98289, Requested 2102. Please try again in 5m37.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba26a000000000d034dce]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98284, Requested 2109. Please try again in 5m39.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bc037e0000000002028b19]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98278, Requested 2105. Please try again in 5m30.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbbdb5000000000f01b794]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98273, Requested 2102. Please try again in 5m24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbee10000000000f02e380]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98267, Requested 2111. Please try again in 5m26.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bbc667000000000103c8a9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98262, Requested 2104. Please try again in 5m16.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba2f1000000001500646d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98256, Requested 2103. Please try again in 5m10.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb9dcb00000000150090fb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98250, Requested 2104. Please try again in 5m5.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7e810000000002035343]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98245, Requested 2110. Please try again in 5m6.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bba9d9000000001d00964d]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98239, Requested 2106. Please try again in 4m58.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7376000000000202beda]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98234, Requested 2105. Please try again in 4m52.895999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69bb7545000000000203763c]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98228, Requested 2102. Please try again in 4m45.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b936600000000003010112]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98222, Requested 2113. Please try again in 4m49.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b9f5e8000000000203739a]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98217, Requested 2125. Please try again in 4m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b92b3f0000000016014cc8]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98211, Requested 2124. Please try again in 4m49.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b9aa0c000000000103d050]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98206, Requested 2110. Please try again in 4m33.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b9cd0a00000000150135b3]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98200, Requested 2114. Please try again in 4m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba2ce8000000000100496f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98195, Requested 2113. Please try again in 4m26.111999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b972d8000000000d037bfd]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98189, Requested 2111. Please try again in 4m19.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba15a6000000001400a282]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98184, Requested 2130. Please try again in 4m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba02b90000000009006d53]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98178, Requested 2108. Please try again in 4m7.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b966ad0000000009006817]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98172, Requested 2107. Please try again in 4m1.055999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b94ea50000000016017ed0]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98167, Requested 2117. Please try again in 4m5.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b96d0b00000000010057bb]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98161, Requested 2115. Please try again in 3m58.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b96779000000000202890f]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98156, Requested 2108. Please try again in 3m48.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b9ecfa000000001d00dd91]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98150, Requested 2106. Please try again in 3m41.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba0424000000000f0280f9]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98144, Requested 2110. Please try again in 3m39.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69ba86d10000000003011d80]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98139, Requested 2130. Please try again in 3m52.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b974f20000000015009d23]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98131, Requested 2111. Please try again in 3m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b93e5a000000000d03792b]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98126, Requested 2116. Please try again in 3m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b980bc000000000c030287]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98120, Requested 2107. Please try again in 3m16.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b9cc8f0000000002028635]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98114, Requested 2110. Please try again in 3m13.535999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b94c0f000000001d0088c4]: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kf5cvgt6f40saz7eer2cjtvm` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98109, Requested 2110. Please try again in 3m9.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  标注失败 [69b986040000000015005f1c]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69b98334000000000c03081f]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69b9843f000000000d013910]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69b9fdae000000000103c6e2]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69ba1e42000000000f028561]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69b96e3c000000000103e830]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69ba177800000000150053dc]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69b92854000000000f018927]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6985c4d3000000000c015c67]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984245e0000000009023c70]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69842d9500000000180206ee]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698af6fb000000000c0166e2]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69841a57000000000c016b8a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698420aa000000000600c5d8]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69846452000000000b0346c8]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698f2a10000000000f00d3cd]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698c4411000000000600b8ac]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69846b9500000000110199cd]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69848fa10000000004003462]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984c574000000000600bb0b]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69845a690000000030024ccf]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69841bac000000000f02d1d4]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698c53c0000000001d00867a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69846fe5000000001d00c0b9]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984afff000000001d00ca0a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698b4246000000000601f6c2]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69845993000000000800d331]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698447ac00000000080306fb]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984c7f20000000006009a4a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698487a3000000000f028e91]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984c127000000000f0289ee]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984d74f0000000018039d80]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69846262000000000b034ec5]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6985b2b3000000000c00baee]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984d93700000000110186af]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698551510000000018022491]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69284b5c000000000601b2ca]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692902a000000000380162a3]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6928e866000000003803f687]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6928dd7b000000001502f14b]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6929746b000000003900351d]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69284ee100000000380256d6]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282c00000000001601fa4f]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69281752000000001601c009]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692816ac0000000016021b95]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692834f7000000001d02648a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69281be2000000001601ef06]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282884000000001d0253e2]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692826ba0000000006018935]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69281dd800000000390060dc]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69281add000000000e037d95]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6929b2ad00000000380315c9]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282f21000000003900891e]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282fd40000000006018ada]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692a58bf000000001601e1cb]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69284a080000000039001bbe]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69281c00000000001403cf81]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282f140000000039004c0c]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692817950000000038014669]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69282cb50000000038017398]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69285c98000000001502dc19]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [692db6dd0000000038013133]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984ead30000000009037ff8]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6984f079000000000503125f]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69853b7f000000000d012084]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69856444000000001101a166]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [698744c80000000005032e88]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [6985b82a00000000110180e4]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bb7719000000001d00ff77]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bb78f90000000018039fc5]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bd9eb90000000016015c31]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bd3898000000000d03ff6b]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bca988000000001501223a]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bbef2c00000000190033e4]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bbd9fd000000000103f565]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bba2ac0000000001007087]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bb8ef1000000000d01206b]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bb8d15000000000f02d643]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+  标注失败 [69bb7e590000000015011eb2]: Error code: 403 - {'error': {'message': 'Forbidden'}}
+
+标注完成: 成功=46 | 失败=433
+
+合并标注结果...
+
+已保存: C:\game_user_research\analysis\cleaned_data\comments_labeled.csv
+  总行数: 526 | 已标注: 488
+
+完成。
+
+STDERR:
+标注进度:   0%|          | 0/479 [00:00<?, ?it/s]
+标注进度:   0%|          | 1/479 [00:01<12:38,  1.59s/it]
+标注进度:   0%|          | 2/479 [00:02<07:49,  1.02it/s]
+标注进度:   1%|          | 3/479 [00:03<07:23,  1.07it/s]
+标注进度:   1%|          | 4/479 [00:03<06:24,  1.23it/s]
+标注进度:   1%|          | 5/479 [00:04<06:23,  1.24it/s]
+标注进度:   1%|▏         | 6/479 [00:07<12:12,  1.55s/it]
+标注进度:   1%|▏         | 7/479 [00:19<38:29,  4.89s/it]
+标注进度:   2%|▏         | 8/479 [00:30<55:37,  7.09s/it]
+标注进度:   2%|▏         | 9/479 [00:42<1:05:36,  8.38s/it]
+标注进度:   2%|▏         | 10/479 [00:52<1:11:14,  9.11s/it]
+标注进度:   2%|▏         | 11/479 [01:03<1:15:37,  9.70s/it]
+标注进度:   3%|▎         | 12/479 [01:14<1:17:55, 10.01s/it]
+标注进度:   3%|▎         | 13/479 [01:26<1:20:44, 10.40s/it]
+标注进度:   3%|▎         | 14/479 [01:37<1:22:07, 10.60s/it]
+标注进度:   3%|▎         | 15/479 [01:47<1:22:24, 10.66s/it]
+标注进度:   3%|▎         | 16/479 [01:58<1:22:21, 10.67s/it]
+标注进度:   4%|▎         | 17/479 [02:09<1:22:44, 10.75s/it]
+标注进度:   4%|▍         | 18/479 [02:20<1:22:41, 10.76s/it]
+标注进度:   4%|▍         | 19/479 [02:30<1:22:04, 10.71s/it]
+标注进度:   4%|▍         | 20/479 [02:42<1:24:50, 11.09s/it]
+标注进度:   4%|▍         | 21/479 [02:53<1:23:44, 10.97s/it]
+标注进度:   5%|▍         | 22/479 [03:04<1:23:06, 10.91s/it]
+标注进度:   5%|▍         | 23/479 [03:15<1:22:39, 10.88s/it]
+标注进度:   5%|▌         | 24/479 [03:25<1:22:07, 10.83s/it]
+标注进度:   5%|▌         | 25/479 [03:36<1:21:05, 10.72s/it]
+标注进度:   5%|▌         | 26/479 [03:47<1:22:54, 10.98s/it]
+标注进度:   6%|▌         | 27/479 [03:58<1:21:56, 10.88s/it]
+标注进度:   6%|▌         | 28/479 [04:10<1:23:35, 11.12s/it]
+标注进度:   6%|▌         | 29/479 [04:20<1:22:35, 11.01s/it]
+标注进度:   6%|▋         | 30/479 [04:31<1:22:02, 10.96s/it]
+标注进度:   6%|▋         | 31/479 [04:42<1:21:21, 10.90s/it]
+标注进度:   7%|▋         | 32/479 [04:53<1:20:53, 10.86s/it]
+标注进度:   7%|▋         | 33/479 [05:04<1:20:27, 10.82s/it]
+标注进度:   7%|▋         | 34/479 [05:16<1:22:58, 11.19s/it]
+标注进度:   7%|▋         | 35/479 [05:26<1:19:55, 10.80s/it]
+标注进度:   8%|▊         | 36/479 [05:36<1:18:57, 10.70s/it]
+标注进度:   8%|▊         | 37/479 [05:48<1:21:12, 11.02s/it]
+标注进度:   8%|▊         | 38/479 [05:58<1:20:12, 10.91s/it]
+标注进度:   8%|▊         | 39/479 [06:09<1:19:52, 10.89s/it]
+标注进度:   8%|▊         | 40/479 [06:20<1:19:12, 10.83s/it]
+标注进度:   9%|▊         | 41/479 [06:32<1:22:15, 11.27s/it]
+标注进度:   9%|▉         | 42/479 [06:42<1:19:12, 10.87s/it]
+标注进度:   9%|▉         | 43/479 [06:53<1:19:06, 10.89s/it]
+标注进度:   9%|▉         | 44/479 [07:05<1:20:11, 11.06s/it]
+标注进度:   9%|▉         | 45/479 [07:15<1:19:23, 10.98s/it]
+标注进度:  10%|▉         | 46/479 [07:20<1:05:38,  9.10s/it]
+标注进度:  10%|▉         | 47/479 [07:25<56:48,  7.89s/it]  
+标注进度:  10%|█         | 48/479 [07:30<49:50,  6.94s/it]
+标注进度:  10%|█         | 49/479 [07:35<44:58,  6.27s/it]
+标注进度:  10%|█         | 50/479 [07:39<41:54,  5.86s/it]
+标注进度:  11%|█         | 51/479 [07:44<39:53,  5.59s/it]
+标注进度:  11%|█         | 52/479 [07:49<37:55,  5.33s/it]
+标注进度:  11%|█         | 53/479 [07:54<36:31,  5.15s/it]
+标注进度:  11%|█▏        | 54/479 [07:59<35:54,  5.07s/it]
+标注进度:  11%|█▏        | 55/479 [08:03<35:09,  4.97s/it]
+标注进度:  12%|█▏        | 56/479 [08:08<34:55,  4.95s/it]
+标注进度:  12%|█▏        | 57/479 [08:13<34:42,  4.94s/it]
+标注进度:  12%|█▏        | 58/479 [08:18<34:41,  4.94s/it]
+标注进度:  12%|█▏        | 59/479 [08:23<34:29,  4.93s/it]
+标注进度:  13%|█▎        | 60/479 [08:28<35:15,  5.05s/it]
+标注进度:  13%|█▎        | 61/479 [08:34<35:41,  5.12s/it]
+标注进度:  13%|█▎        | 62/479 [09:31<2:24:09, 20.74s/it]
+标注进度:  13%|█▎        | 63/479 [09:36<1:50:29, 15.94s/it]
+标注进度:  13%|█▎        | 64/479 [09:40<1:26:58, 12.57s/it]
+标注进度:  14%|█▎        | 65/479 [09:45<1:11:02, 10.30s/it]
+标注进度:  14%|█▍        | 66/479 [09:50<1:00:00,  8.72s/it]
+标注进度:  14%|█▍        | 67/479 [09:55<51:57,  7.57s/it]  
+标注进度:  14%|█▍        | 68/479 [10:00<46:20,  6.76s/it]
+标注进度:  14%|█▍        | 69/479 [10:05<42:04,  6.16s/it]
+标注进度:  15%|█▍        | 70/479 [10:10<39:02,  5.73s/it]
+标注进度:  15%|█▍        | 71/479 [10:15<37:37,  5.53s/it]
+标注进度:  15%|█▌        | 72/479 [10:20<36:01,  5.31s/it]
+标注进度:  15%|█▌        | 73/479 [10:24<35:07,  5.19s/it]
+标注进度:  15%|█▌        | 74/479 [10:29<34:07,  5.06s/it]
+标注进度:  16%|█▌        | 75/479 [10:34<33:51,  5.03s/it]
+标注进度:  16%|█▌        | 76/479 [10:39<33:08,  4.93s/it]
+标注进度:  16%|█▌        | 77/479 [10:44<33:11,  4.95s/it]
+标注进度:  16%|█▋        | 78/479 [10:49<33:07,  4.96s/it]
+标注进度:  16%|█▋        | 79/479 [10:54<32:39,  4.90s/it]
+标注进度:  17%|█▋        | 80/479 [10:59<32:36,  4.90s/it]
+标注进度:  17%|█▋        | 81/479 [11:03<32:15,  4.86s/it]
+标注进度:  17%|█▋        | 82/479 [11:08<32:37,  4.93s/it]
+标注进度:  17%|█▋        | 83/479 [11:13<32:09,  4.87s/it]
+标注进度:  18%|█▊        | 84/479 [11:18<31:51,  4.84s/it]
+标注进度:  18%|█▊        | 85/479 [11:23<31:37,  4.81s/it]
+标注进度:  18%|█▊        | 86/479 [11:27<31:25,  4.80s/it]
+标注进度:  18%|█▊        | 87/479 [11:32<31:13,  4.78s/it]
+标注进度:  18%|█▊        | 88/479 [11:37<31:23,  4.82s/it]
+标注进度:  19%|█▊        | 89/479 [11:42<31:11,  4.80s/it]
+标注进度:  19%|█▉        | 90/479 [11:47<31:48,  4.91s/it]
+标注进度:  19%|█▉        | 91/479 [11:52<31:45,  4.91s/it]
+标注进度:  19%|█▉        | 92/479 [11:57<31:21,  4.86s/it]
+标注进度:  19%|█▉        | 93/479 [12:01<31:15,  4.86s/it]
+标注进度:  20%|█▉        | 94/479 [12:06<30:55,  4.82s/it]
+标注进度:  20%|█▉        | 95/479 [12:11<30:41,  4.79s/it]
+标注进度:  20%|██        | 96/479 [12:16<30:50,  4.83s/it]
+标注进度:  20%|██        | 97/479 [12:21<30:37,  4.81s/it]
+标注进度:  20%|██        | 98/479 [12:25<30:32,  4.81s/it]
+标注进度:  21%|██        | 99/479 [12:30<30:27,  4.81s/it]
+标注进度:  21%|██        | 100/479 [12:35<30:46,  4.87s/it]
+标注进度:  21%|██        | 101/479 [12:40<30:26,  4.83s/it]
+标注进度:  21%|██▏       | 102/479 [12:45<30:32,  4.86s/it]
+标注进度:  22%|██▏       | 103/479 [12:50<30:45,  4.91s/it]
+标注进度:  22%|██▏       | 104/479 [12:55<31:13,  5.00s/it]
+标注进度:  22%|██▏       | 105/479 [13:00<30:58,  4.97s/it]
+标注进度:  22%|██▏       | 106/479 [13:05<30:27,  4.90s/it]
+标注进度:  22%|██▏       | 107/479 [13:09<30:04,  4.85s/it]
+标注进度:  23%|██▎       | 108/479 [13:14<30:14,  4.89s/it]
+标注进度:  23%|██▎       | 109/479 [13:19<30:13,  4.90s/it]
+标注进度:  23%|██▎       | 110/479 [13:24<29:52,  4.86s/it]
+标注进度:  23%|██▎       | 111/479 [13:29<29:37,  4.83s/it]
+标注进度:  23%|██▎       | 112/479 [13:34<29:21,  4.80s/it]
+标注进度:  24%|██▎       | 113/479 [13:38<29:18,  4.80s/it]
+标注进度:  24%|██▍       | 114/479 [13:43<29:05,  4.78s/it]
+标注进度:  24%|██▍       | 115/479 [13:48<28:54,  4.77s/it]
+标注进度:  24%|██▍       | 116/479 [13:53<29:03,  4.80s/it]
+标注进度:  24%|██▍       | 117/479 [13:58<28:50,  4.78s/it]
+标注进度:  25%|██▍       | 118/479 [14:02<28:40,  4.77s/it]
+标注进度:  25%|██▍       | 119/479 [14:07<28:49,  4.80s/it]
+标注进度:  25%|██▌       | 120/479 [14:12<28:35,  4.78s/it]
+标注进度:  25%|██▌       | 121/479 [14:17<28:42,  4.81s/it]
+标注进度:  25%|██▌       | 122/479 [14:22<29:05,  4.89s/it]
+标注进度:  26%|██▌       | 123/479 [14:27<28:46,  4.85s/it]
+标注进度:  26%|██▌       | 124/479 [14:31<28:27,  4.81s/it]
+标注进度:  26%|██▌       | 125/479 [14:36<28:50,  4.89s/it]
+标注进度:  26%|██▋       | 126/479 [14:41<28:27,  4.84s/it]
+标注进度:  27%|██▋       | 127/479 [14:46<28:32,  4.86s/it]
+标注进度:  27%|██▋       | 128/479 [14:51<28:22,  4.85s/it]
+标注进度:  27%|██▋       | 129/479 [14:56<28:03,  4.81s/it]
+标注进度:  27%|██▋       | 130/479 [15:00<28:07,  4.84s/it]
+标注进度:  27%|██▋       | 131/479 [15:05<27:50,  4.80s/it]
+标注进度:  28%|██▊       | 132/479 [15:10<27:59,  4.84s/it]
+标注进度:  28%|██▊       | 133/479 [15:15<27:44,  4.81s/it]
+标注进度:  28%|██▊       | 134/479 [15:20<27:49,  4.84s/it]
+标注进度:  28%|██▊       | 135/479 [15:25<27:34,  4.81s/it]
+标注进度:  28%|██▊       | 136/479 [15:29<27:20,  4.78s/it]
+标注进度:  29%|██▊       | 137/479 [15:34<27:17,  4.79s/it]
+标注进度:  29%|██▉       | 138/479 [15:39<27:23,  4.82s/it]
+标注进度:  29%|██▉       | 139/479 [15:44<27:08,  4.79s/it]
+标注进度:  29%|██▉       | 140/479 [15:49<27:18,  4.83s/it]
+标注进度:  29%|██▉       | 141/479 [15:53<27:01,  4.80s/it]
+标注进度:  30%|██▉       | 142/479 [15:58<27:07,  4.83s/it]
+标注进度:  30%|██▉       | 143/479 [16:03<26:51,  4.80s/it]
+标注进度:  30%|███       | 144/479 [16:08<26:38,  4.77s/it]
+标注进度:  30%|███       | 145/479 [16:12<26:34,  4.77s/it]
+标注进度:  30%|███       | 146/479 [16:17<26:24,  4.76s/it]
+标注进度:  31%|███       | 147/479 [16:22<26:16,  4.75s/it]
+标注进度:  31%|███       | 148/479 [16:27<26:08,  4.74s/it]
+标注进度:  31%|███       | 149/479 [16:31<26:08,  4.75s/it]
+标注进度:  31%|███▏      | 150/479 [16:36<26:18,  4.80s/it]
+标注进度:  32%|███▏      | 151/479 [16:41<26:09,  4.78s/it]
+标注进度:  32%|███▏      | 152/479 [16:46<25:58,  4.77s/it]
+标注进度:  32%|███▏      | 153/479 [16:50<25:48,  4.75s/it]
+标注进度:  32%|███▏      | 154/479 [16:55<25:49,  4.77s/it]
+标注进度:  32%|███▏      | 155/479 [17:00<25:57,  4.81s/it]
+标注进度:  33%|███▎      | 156/479 [17:05<25:43,  4.78s/it]
+标注进度:  33%|███▎      | 157/479 [17:10<25:34,  4.76s/it]
+标注进度:  33%|███▎      | 158/479 [17:14<25:29,  4.77s/it]
+标注进度:  33%|███▎      | 159/479 [17:19<25:20,  4.75s/it]
+标注进度:  33%|███▎      | 160/479 [17:24<25:47,  4.85s/it]
+标注进度:  34%|███▎      | 161/479 [17:29<26:04,  4.92s/it]
+标注进度:  34%|███▍      | 162/479 [17:34<25:41,  4.86s/it]
+标注进度:  34%|███▍      | 163/479 [17:39<25:41,  4.88s/it]
+标注进度:  34%|███▍      | 164/479 [17:44<26:03,  4.96s/it]
+标注进度:  34%|███▍      | 165/479 [17:49<25:53,  4.95s/it]
+标注进度:  35%|███▍      | 166/479 [17:54<25:45,  4.94s/it]
+标注进度:  35%|███▍      | 167/479 [17:59<25:20,  4.87s/it]
+标注进度:  35%|███▌      | 168/479 [18:03<25:03,  4.83s/it]
+标注进度:  35%|███▌      | 169/479 [18:08<24:48,  4.80s/it]
+标注进度:  35%|███▌      | 170/479 [18:13<24:37,  4.78s/it]
+标注进度:  36%|███▌      | 171/479 [18:18<24:47,  4.83s/it]
+标注进度:  36%|███▌      | 172/479 [18:23<24:49,  4.85s/it]
+标注进度:  36%|███▌      | 173/479 [18:27<24:32,  4.81s/it]
+标注进度:  36%|███▋      | 174/479 [18:32<24:36,  4.84s/it]
+标注进度:  37%|███▋      | 175/479 [18:37<24:43,  4.88s/it]
+标注进度:  37%|███▋      | 176/479 [18:43<25:16,  5.00s/it]
+标注进度:  37%|███▋      | 177/479 [18:47<24:46,  4.92s/it]
+标注进度:  37%|███▋      | 178/479 [18:52<24:23,  4.86s/it]
+标注进度:  37%|███▋      | 179/479 [18:57<24:06,  4.82s/it]
+标注进度:  38%|███▊      | 180/479 [19:01<23:53,  4.80s/it]
+标注进度:  38%|███▊      | 181/479 [19:06<23:42,  4.77s/it]
+标注进度:  38%|███▊      | 182/479 [19:11<23:33,  4.76s/it]
+标注进度:  38%|███▊      | 183/479 [19:16<23:25,  4.75s/it]
+标注进度:  38%|███▊      | 184/479 [19:21<23:45,  4.83s/it]
+标注进度:  39%|███▊      | 185/479 [19:26<23:54,  4.88s/it]
+标注进度:  39%|███▉      | 186/479 [19:30<23:35,  4.83s/it]
+标注进度:  39%|███▉      | 187/479 [19:35<23:52,  4.90s/it]
+标注进度:  39%|███▉      | 188/479 [19:40<23:48,  4.91s/it]
+标注进度:  39%|███▉      | 189/479 [19:45<23:43,  4.91s/it]
+标注进度:  40%|███▉      | 190/479 [19:50<23:41,  4.92s/it]
+标注进度:  40%|███▉      | 191/479 [19:55<23:21,  4.87s/it]
+标注进度:  40%|████      | 192/479 [20:00<23:33,  4.93s/it]
+标注进度:  40%|████      | 193/479 [20:05<23:26,  4.92s/it]
+标注进度:  41%|████      | 194/479 [20:10<23:20,  4.91s/it]
+标注进度:  41%|████      | 195/479 [20:15<22:59,  4.86s/it]
+标注进度:  41%|████      | 196/479 [20:19<22:42,  4.81s/it]
+标注进度:  41%|████      | 197/479 [20:25<23:21,  4.97s/it]
+标注进度:  41%|████▏     | 198/479 [20:30<23:15,  4.97s/it]
+标注进度:  42%|████▏     | 199/479 [20:34<22:49,  4.89s/it]
+标注进度:  42%|████▏     | 200/479 [20:39<22:30,  4.84s/it]
+标注进度:  42%|████▏     | 201/479 [20:44<22:24,  4.83s/it]
+标注进度:  42%|████▏     | 202/479 [20:49<22:11,  4.81s/it]
+标注进度:  42%|████▏     | 203/479 [20:53<21:59,  4.78s/it]
+标注进度:  43%|████▎     | 204/479 [20:58<21:49,  4.76s/it]
+标注进度:  43%|████▎     | 205/479 [21:03<21:40,  4.75s/it]
+标注进度:  43%|████▎     | 206/479 [21:08<21:48,  4.79s/it]
+标注进度:  43%|████▎     | 207/479 [21:12<21:40,  4.78s/it]
+标注进度:  43%|████▎     | 208/479 [21:17<21:58,  4.87s/it]
+标注进度:  44%|████▎     | 209/479 [21:22<21:56,  4.88s/it]
+标注进度:  44%|████▍     | 210/479 [21:27<21:39,  4.83s/it]
+标注进度:  44%|████▍     | 211/479 [21:32<21:37,  4.84s/it]
+标注进度:  44%|████▍     | 212/479 [21:37<21:22,  4.80s/it]
+标注进度:  44%|████▍     | 213/479 [21:41<21:11,  4.78s/it]
+标注进度:  45%|████▍     | 214/479 [21:46<21:15,  4.81s/it]
+标注进度:  45%|████▍     | 215/479 [21:51<21:23,  4.86s/it]
+标注进度:  45%|████▌     | 216/479 [21:56<21:20,  4.87s/it]
+标注进度:  45%|████▌     | 217/479 [22:01<21:04,  4.83s/it]
+标注进度:  46%|████▌     | 218/479 [22:06<20:51,  4.80s/it]
+标注进度:  46%|████▌     | 219/479 [22:10<20:41,  4.77s/it]
+标注进度:  46%|████▌     | 220/479 [22:15<20:32,  4.76s/it]
+标注进度:  46%|████▌     | 221/479 [22:20<20:53,  4.86s/it]
+标注进度:  46%|████▋     | 222/479 [22:25<21:06,  4.93s/it]
+标注进度:  47%|████▋     | 223/479 [22:30<20:46,  4.87s/it]
+标注进度:  47%|████▋     | 224/479 [22:35<20:30,  4.83s/it]
+标注进度:  47%|████▋     | 225/479 [22:39<20:18,  4.80s/it]
+标注进度:  47%|████▋     | 226/479 [22:44<20:08,  4.78s/it]
+标注进度:  47%|████▋     | 227/479 [22:49<20:00,  4.76s/it]
+标注进度:  48%|████▊     | 228/479 [22:54<19:53,  4.75s/it]
+标注进度:  48%|████▊     | 229/479 [22:58<19:45,  4.74s/it]
+标注进度:  48%|████▊     | 230/479 [23:03<19:52,  4.79s/it]
+标注进度:  48%|████▊     | 231/479 [23:08<19:56,  4.82s/it]
+标注进度:  48%|████▊     | 232/479 [23:13<19:43,  4.79s/it]
+标注进度:  49%|████▊     | 233/479 [23:18<19:34,  4.77s/it]
+标注进度:  49%|████▉     | 234/479 [23:22<19:29,  4.77s/it]
+标注进度:  49%|████▉     | 235/479 [23:27<19:34,  4.81s/it]
+标注进度:  49%|████▉     | 236/479 [23:32<19:36,  4.84s/it]
+标注进度:  49%|████▉     | 237/479 [23:37<19:24,  4.81s/it]
+标注进度:  50%|████▉     | 238/479 [23:42<19:32,  4.87s/it]
+标注进度:  50%|████▉     | 239/479 [23:47<19:18,  4.83s/it]
+标注进度:  50%|█████     | 240/479 [23:51<19:05,  4.79s/it]
+标注进度:  50%|█████     | 241/479 [23:56<19:08,  4.83s/it]
+标注进度:  51%|█████     | 242/479 [24:01<18:56,  4.80s/it]
+标注进度:  51%|█████     | 243/479 [24:06<18:46,  4.77s/it]
+标注进度:  51%|█████     | 244/479 [24:11<18:49,  4.81s/it]
+标注进度:  51%|█████     | 245/479 [24:15<18:38,  4.78s/it]
+标注进度:  51%|█████▏    | 246/479 [24:20<18:29,  4.76s/it]
+标注进度:  52%|█████▏    | 247/479 [24:25<18:20,  4.75s/it]
+标注进度:  52%|█████▏    | 248/479 [24:30<18:31,  4.81s/it]
+标注进度:  52%|█████▏    | 249/479 [24:34<18:19,  4.78s/it]
+标注进度:  52%|█████▏    | 250/479 [24:39<18:35,  4.87s/it]
+标注进度:  52%|█████▏    | 251/479 [24:44<18:32,  4.88s/it]
+标注进度:  53%|█████▎    | 252/479 [24:49<18:16,  4.83s/it]
+标注进度:  53%|█████▎    | 253/479 [24:54<18:03,  4.79s/it]
+标注进度:  53%|█████▎    | 254/479 [24:58<17:53,  4.77s/it]
+标注进度:  53%|█████▎    | 255/479 [25:04<18:08,  4.86s/it]
+标注进度:  53%|█████▎    | 256/479 [25:08<17:54,  4.82s/it]
+标注进度:  54%|█████▎    | 257/479 [25:13<17:43,  4.79s/it]
+标注进度:  54%|█████▍    | 258/479 [25:18<17:47,  4.83s/it]
+标注进度:  54%|█████▍    | 259/479 [25:23<17:35,  4.80s/it]
+标注进度:  54%|█████▍    | 260/479 [25:27<17:25,  4.77s/it]
+标注进度:  54%|█████▍    | 261/479 [25:32<17:17,  4.76s/it]
+标注进度:  55%|█████▍    | 262/479 [25:37<17:22,  4.80s/it]
+标注进度:  55%|█████▍    | 263/479 [25:42<17:21,  4.82s/it]
+标注进度:  55%|█████▌    | 264/479 [25:47<17:11,  4.80s/it]
+标注进度:  55%|█████▌    | 265/479 [25:52<17:29,  4.91s/it]
+标注进度:  56%|█████▌    | 266/479 [25:56<17:14,  4.85s/it]
+标注进度:  56%|█████▌    | 267/479 [26:01<17:12,  4.87s/it]
+标注进度:  56%|█████▌    | 268/479 [26:06<17:09,  4.88s/it]
+标注进度:  56%|█████▌    | 269/479 [26:11<17:08,  4.90s/it]
+标注进度:  56%|█████▋    | 270/479 [26:16<17:03,  4.90s/it]
+标注进度:  57%|█████▋    | 271/479 [26:21<16:47,  4.84s/it]
+标注进度:  57%|█████▋    | 272/479 [26:26<16:35,  4.81s/it]
+标注进度:  57%|█████▋    | 273/479 [26:30<16:24,  4.78s/it]
+标注进度:  57%|█████▋    | 274/479 [26:35<16:31,  4.84s/it]
+标注进度:  57%|█████▋    | 275/479 [26:40<16:19,  4.80s/it]
+标注进度:  58%|█████▊    | 276/479 [26:45<16:10,  4.78s/it]
+标注进度:  58%|█████▊    | 277/479 [26:49<16:02,  4.76s/it]
+标注进度:  58%|█████▊    | 278/479 [26:54<15:55,  4.75s/it]
+标注进度:  58%|█████▊    | 279/479 [26:59<15:48,  4.74s/it]
+标注进度:  58%|█████▊    | 280/479 [27:04<15:54,  4.80s/it]
+标注进度:  59%|█████▊    | 281/479 [27:09<16:09,  4.90s/it]
+标注进度:  59%|█████▉    | 282/479 [27:14<15:53,  4.84s/it]
+标注进度:  59%|█████▉    | 283/479 [27:19<15:51,  4.86s/it]
+标注进度:  59%|█████▉    | 284/479 [27:23<15:49,  4.87s/it]
+标注进度:  59%|█████▉    | 285/479 [27:28<15:37,  4.83s/it]
+标注进度:  60%|█████▉    | 286/479 [27:33<15:25,  4.80s/it]
+标注进度:  60%|█████▉    | 287/479 [27:38<15:27,  4.83s/it]
+标注进度:  60%|██████    | 288/479 [27:43<15:43,  4.94s/it]
+标注进度:  60%|██████    | 289/479 [27:48<15:26,  4.88s/it]
+标注进度:  61%|██████    | 290/479 [27:53<15:23,  4.89s/it]
+标注进度:  61%|██████    | 291/479 [27:57<15:08,  4.83s/it]
+标注进度:  61%|██████    | 292/479 [28:02<15:04,  4.84s/it]
+标注进度:  61%|██████    | 293/479 [28:07<14:53,  4.81s/it]
+标注进度:  61%|██████▏   | 294/479 [28:12<14:44,  4.78s/it]
+标注进度:  62%|██████▏   | 295/479 [28:16<14:36,  4.76s/it]
+标注进度:  62%|██████▏   | 296/479 [28:21<14:31,  4.76s/it]
+标注进度:  62%|██████▏   | 297/479 [28:26<14:24,  4.75s/it]
+标注进度:  62%|██████▏   | 298/479 [28:31<14:18,  4.74s/it]
+标注进度:  62%|██████▏   | 299/479 [28:36<14:23,  4.80s/it]
+标注进度:  63%|██████▎   | 300/479 [28:40<14:14,  4.77s/it]
+标注进度:  63%|██████▎   | 301/479 [28:45<14:08,  4.77s/it]
+标注进度:  63%|██████▎   | 302/479 [28:50<14:06,  4.78s/it]
+标注进度:  63%|██████▎   | 303/479 [28:55<13:58,  4.76s/it]
+标注进度:  63%|██████▎   | 304/479 [28:59<14:01,  4.81s/it]
+标注进度:  64%|██████▎   | 305/479 [29:04<13:51,  4.78s/it]
+标注进度:  64%|██████▍   | 306/479 [29:09<13:53,  4.82s/it]
+标注进度:  64%|██████▍   | 307/479 [29:14<13:44,  4.79s/it]
+标注进度:  64%|██████▍   | 308/479 [29:19<13:37,  4.78s/it]
+标注进度:  65%|██████▍   | 309/479 [29:23<13:38,  4.82s/it]
+标注进度:  65%|██████▍   | 310/479 [29:28<13:30,  4.80s/it]
+标注进度:  65%|██████▍   | 311/479 [29:33<13:22,  4.77s/it]
+标注进度:  65%|██████▌   | 312/479 [29:38<13:14,  4.76s/it]
+标注进度:  65%|██████▌   | 313/479 [29:42<13:07,  4.75s/it]
+标注进度:  66%|██████▌   | 314/479 [29:47<13:01,  4.74s/it]
+标注进度:  66%|██████▌   | 315/479 [29:52<12:55,  4.73s/it]
+标注进度:  66%|██████▌   | 316/479 [29:57<12:55,  4.76s/it]
+标注进度:  66%|██████▌   | 317/479 [30:01<12:52,  4.77s/it]
+标注进度:  66%|██████▋   | 318/479 [30:06<12:53,  4.81s/it]
+标注进度:  67%|██████▋   | 319/479 [30:11<13:01,  4.89s/it]
+标注进度:  67%|██████▋   | 320/479 [30:16<12:50,  4.84s/it]
+标注进度:  67%|██████▋   | 321/479 [30:21<12:51,  4.88s/it]
+标注进度:  67%|██████▋   | 322/479 [30:26<12:53,  4.93s/it]
+标注进度:  67%|██████▋   | 323/479 [30:31<12:38,  4.86s/it]
+标注进度:  68%|██████▊   | 324/479 [30:36<12:35,  4.88s/it]
+标注进度:  68%|██████▊   | 325/479 [30:40<12:23,  4.83s/it]
+标注进度:  68%|██████▊   | 326/479 [30:45<12:22,  4.85s/it]
+标注进度:  68%|██████▊   | 327/479 [30:51<12:30,  4.94s/it]
+标注进度:  68%|██████▊   | 328/479 [30:55<12:15,  4.87s/it]
+标注进度:  69%|██████▊   | 329/479 [31:00<12:04,  4.83s/it]
+标注进度:  69%|██████▉   | 330/479 [31:05<11:54,  4.80s/it]
+标注进度:  69%|██████▉   | 331/479 [31:10<11:53,  4.82s/it]
+标注进度:  69%|██████▉   | 332/479 [31:14<11:52,  4.85s/it]
+标注进度:  70%|██████▉   | 333/479 [31:19<11:42,  4.81s/it]
+标注进度:  70%|██████▉   | 334/479 [31:24<11:36,  4.80s/it]
+标注进度:  70%|██████▉   | 335/479 [31:29<11:28,  4.78s/it]
+标注进度:  70%|███████   | 336/479 [31:34<11:28,  4.82s/it]
+标注进度:  70%|███████   | 337/479 [31:39<11:30,  4.86s/it]
+标注进度:  71%|███████   | 338/479 [31:43<11:19,  4.82s/it]
+标注进度:  71%|███████   | 339/479 [31:48<11:18,  4.85s/it]
+标注进度:  71%|███████   | 340/479 [31:53<11:09,  4.82s/it]
+标注进度:  71%|███████   | 341/479 [31:58<11:08,  4.84s/it]
+标注进度:  71%|███████▏  | 342/479 [32:03<11:05,  4.86s/it]
+标注进度:  72%|███████▏  | 343/479 [32:08<11:02,  4.87s/it]
+标注进度:  72%|███████▏  | 344/479 [32:12<10:52,  4.83s/it]
+标注进度:  72%|███████▏  | 345/479 [32:17<10:48,  4.84s/it]
+标注进度:  72%|███████▏  | 346/479 [32:22<10:43,  4.84s/it]
+标注进度:  72%|███████▏  | 347/479 [32:27<10:44,  4.88s/it]
+标注进度:  73%|███████▎  | 348/479 [32:32<10:43,  4.91s/it]
+标注进度:  73%|███████▎  | 349/479 [32:37<10:37,  4.91s/it]
+标注进度:  73%|███████▎  | 350/479 [32:42<10:40,  4.97s/it]
+标注进度:  73%|███████▎  | 351/479 [32:47<10:33,  4.95s/it]
+标注进度:  73%|███████▎  | 352/479 [32:52<10:20,  4.88s/it]
+标注进度:  74%|███████▎  | 353/479 [32:57<10:18,  4.91s/it]
+标注进度:  74%|███████▍  | 354/479 [33:01<10:06,  4.86s/it]
+标注进度:  74%|███████▍  | 355/479 [33:06<10:10,  4.93s/it]
+标注进度:  74%|███████▍  | 356/479 [33:11<10:04,  4.92s/it]
+标注进度:  75%|███████▍  | 357/479 [33:16<09:54,  4.87s/it]
+标注进度:  75%|███████▍  | 358/479 [33:21<09:52,  4.90s/it]
+标注进度:  75%|███████▍  | 359/479 [33:26<09:47,  4.90s/it]
+标注进度:  75%|███████▌  | 360/479 [33:31<09:43,  4.90s/it]
+标注进度:  75%|███████▌  | 361/479 [33:36<09:31,  4.85s/it]
+标注进度:  76%|███████▌  | 362/479 [33:41<09:29,  4.87s/it]
+标注进度:  76%|███████▌  | 363/479 [33:45<09:19,  4.82s/it]
+标注进度:  76%|███████▌  | 364/479 [33:50<09:23,  4.90s/it]
+标注进度:  76%|███████▌  | 365/479 [33:55<09:12,  4.85s/it]
+标注进度:  76%|███████▋  | 366/479 [34:00<09:09,  4.86s/it]
+标注进度:  77%|███████▋  | 367/479 [34:05<08:59,  4.82s/it]
+标注进度:  77%|███████▋  | 368/479 [34:09<08:51,  4.79s/it]
+标注进度:  77%|███████▋  | 369/479 [34:14<08:44,  4.77s/it]
+标注进度:  77%|███████▋  | 370/479 [34:19<08:44,  4.81s/it]
+标注进度:  77%|███████▋  | 371/479 [34:24<08:42,  4.84s/it]
+标注进度:  78%|███████▊  | 372/479 [34:29<08:34,  4.81s/it]
+标注进度:  78%|███████▊  | 373/479 [34:33<08:26,  4.78s/it]
+标注进度:  78%|███████▊  | 374/479 [34:38<08:25,  4.82s/it]
+标注进度:  78%|███████▊  | 375/479 [34:43<08:17,  4.79s/it]
+标注进度:  78%|███████▊  | 376/479 [34:48<08:18,  4.84s/it]
+标注进度:  79%|███████▊  | 377/479 [34:53<08:10,  4.81s/it]
+标注进度:  79%|███████▉  | 378/479 [34:58<08:08,  4.84s/it]
+标注进度:  79%|███████▉  | 379/479 [35:02<08:00,  4.80s/it]
+标注进度:  79%|███████▉  | 380/479 [35:07<07:58,  4.83s/it]
+标注进度:  80%|███████▉  | 381/479 [35:12<07:50,  4.80s/it]
+标注进度:  80%|███████▉  | 382/479 [35:17<07:43,  4.78s/it]
+标注进度:  80%|███████▉  | 383/479 [35:22<07:48,  4.88s/it]
+标注进度:  80%|████████  | 384/479 [35:27<07:38,  4.83s/it]
+标注进度:  80%|████████  | 385/479 [35:31<07:31,  4.80s/it]
+标注进度:  81%|████████  | 386/479 [35:36<07:24,  4.78s/it]
+标注进度:  81%|████████  | 387/479 [35:41<07:18,  4.77s/it]
+标注进度:  81%|████████  | 388/479 [35:46<07:17,  4.81s/it]
+标注进度:  81%|████████  | 389/479 [35:50<07:12,  4.80s/it]
+标注进度:  81%|████████▏ | 390/479 [35:55<07:05,  4.78s/it]
+标注进度:  82%|████████▏ | 391/479 [36:00<07:08,  4.86s/it]
+标注进度:  82%|████████▏ | 392/479 [36:05<06:59,  4.82s/it]
+标注进度:  82%|████████▏ | 393/479 [36:10<06:57,  4.86s/it]
+标注进度:  82%|████████▏ | 394/479 [36:15<06:49,  4.81s/it]
+标注进度:  82%|████████▏ | 395/479 [36:19<06:42,  4.79s/it]
+标注进度:  83%|████████▎ | 396/479 [36:26<07:26,  5.38s/it]
+标注进度:  83%|████████▎ | 397/479 [36:31<07:05,  5.19s/it]
+标注进度:  83%|████████▎ | 398/479 [36:36<06:54,  5.11s/it]
+标注进度:  83%|████████▎ | 399/479 [36:40<06:40,  5.01s/it]
+标注进度:  84%|████████▎ | 400/479 [36:45<06:34,  4.99s/it]
+标注进度:  84%|████████▎ | 401/479 [36:52<07:05,  5.45s/it]
+标注进度:  84%|████████▍ | 402/479 [36:57<06:43,  5.24s/it]
+标注进度:  84%|████████▍ | 403/479 [37:01<06:22,  5.03s/it]
+标注进度:  84%|████████▍ | 404/479 [37:06<06:06,  4.89s/it]
+标注进度:  85%|████████▍ | 405/479 [37:10<05:54,  4.79s/it]
+标注进度:  85%|████████▍ | 406/479 [37:15<05:44,  4.72s/it]
+标注进度:  85%|████████▍ | 407/479 [37:19<05:36,  4.67s/it]
+标注进度:  85%|████████▌ | 408/479 [37:24<05:28,  4.63s/it]
+标注进度:  85%|████████▌ | 409/479 [37:29<05:22,  4.61s/it]
+标注进度:  86%|████████▌ | 410/479 [37:33<05:16,  4.59s/it]
+标注进度:  86%|████████▌ | 411/479 [37:38<05:11,  4.58s/it]
+标注进度:  86%|████████▌ | 412/479 [37:42<05:06,  4.58s/it]
+标注进度:  86%|████████▌ | 413/479 [37:47<05:01,  4.57s/it]
+标注进度:  86%|████████▋ | 414/479 [37:51<04:56,  4.57s/it]
+标注进度:  87%|████████▋ | 415/479 [37:56<04:52,  4.56s/it]
+标注进度:  87%|████████▋ | 416/479 [38:00<04:47,  4.56s/it]
+标注进度:  87%|████████▋ | 417/479 [38:05<04:42,  4.56s/it]
+标注进度:  87%|████████▋ | 418/479 [38:10<04:40,  4.59s/it]
+标注进度:  87%|████████▋ | 419/479 [38:14<04:34,  4.58s/it]
+标注进度:  88%|████████▊ | 420/479 [38:19<04:29,  4.58s/it]
+标注进度:  88%|████████▊ | 421/479 [38:23<04:25,  4.57s/it]
+标注进度:  88%|████████▊ | 422/479 [38:28<04:20,  4.57s/it]
+标注进度:  88%|████████▊ | 423/479 [38:33<04:15,  4.57s/it]
+标注进度:  89%|████████▊ | 424/479 [38:37<04:10,  4.56s/it]
+标注进度:  89%|████████▊ | 425/479 [38:42<04:06,  4.56s/it]
+标注进度:  89%|████████▉ | 426/479 [38:46<04:02,  4.57s/it]
+标注进度:  89%|████████▉ | 427/479 [38:51<03:57,  4.56s/it]
+标注进度:  89%|████████▉ | 428/479 [38:55<03:52,  4.56s/it]
+标注进度:  90%|████████▉ | 429/479 [39:00<03:47,  4.56s/it]
+标注进度:  90%|████████▉ | 430/479 [39:04<03:43,  4.55s/it]
+标注进度:  90%|████████▉ | 431/479 [39:09<03:38,  4.56s/it]
+标注进度:  90%|█████████ | 432/479 [39:14<03:34,  4.56s/it]
+标注进度:  90%|█████████ | 433/479 [39:18<03:31,  4.60s/it]
+标注进度:  91%|█████████ | 434/479 [39:23<03:26,  4.59s/it]
+标注进度:  91%|█████████ | 435/479 [39:27<03:21,  4.58s/it]
+标注进度:  91%|█████████ | 436/479 [39:32<03:16,  4.57s/it]
+标注进度:  91%|█████████ | 437/479 [39:36<03:11,  4.57s/it]
+标注进度:  91%|█████████▏| 438/479 [39:41<03:07,  4.57s/it]
+标注进度:  92%|█████████▏| 439/479 [39:46<03:02,  4.56s/it]
+标注进度:  92%|█████████▏| 440/479 [39:50<02:57,  4.56s/it]
+标注进度:  92%|█████████▏| 441/479 [39:55<02:53,  4.56s/it]
+标注进度:  92%|█████████▏| 442/479 [39:59<02:48,  4.55s/it]
+标注进度:  92%|█████████▏| 443/479 [40:04<02:43,  4.55s/it]
+标注进度:  93%|█████████▎| 444/479 [40:08<02:39,  4.55s/it]
+标注进度:  93%|█████████▎| 445/479 [40:13<02:34,  4.56s/it]
+标注进度:  93%|█████████▎| 446/479 [40:17<02:30,  4.56s/it]
+标注进度:  93%|█████████▎| 447/479 [40:22<02:25,  4.56s/it]
+标注进度:  94%|█████████▎| 448/479 [40:27<02:21,  4.56s/it]
+标注进度:  94%|█████████▎| 449/479 [40:31<02:17,  4.57s/it]
+标注进度:  94%|█████████▍| 450/479 [40:36<02:12,  4.56s/it]
+标注进度:  94%|█████████▍| 451/479 [40:40<02:07,  4.56s/it]
+标注进度:  94%|█████████▍| 452/479 [40:45<02:03,  4.56s/it]
+标注进度:  95%|█████████▍| 453/479 [40:49<01:58,  4.56s/it]
+标注进度:  95%|█████████▍| 454/479 [40:54<01:53,  4.56s/it]
+标注进度:  95%|█████████▍| 455/479 [40:59<01:49,  4.56s/it]
+标注进度:  95%|█████████▌| 456/479 [41:03<01:44,  4.56s/it]
+标注进度:  95%|█████████▌| 457/479 [41:08<01:40,  4.55s/it]
+标注进度:  96%|█████████▌| 458/479 [41:12<01:35,  4.56s/it]
+标注进度:  96%|█████████▌| 459/479 [41:17<01:31,  4.55s/it]
+标注进度:  96%|█████████▌| 460/479 [41:21<01:26,  4.56s/it]
+标注进度:  96%|█████████▌| 461/479 [41:26<01:22,  4.56s/it]
+标注进度:  96%|█████████▋| 462/479 [41:30<01:17,  4.55s/it]
+标注进度:  97%|█████████▋| 463/479 [41:35<01:12,  4.55s/it]
+标注进度:  97%|█████████▋| 464/479 [41:39<01:08,  4.55s/it]
+标注进度:  97%|█████████▋| 465/479 [41:44<01:03,  4.56s/it]
+标注进度:  97%|█████████▋| 466/479 [41:49<00:59,  4.56s/it]
+标注进度:  97%|█████████▋| 467/479 [41:53<00:54,  4.56s/it]
+标注进度:  98%|█████████▊| 468/479 [41:58<00:50,  4.56s/it]
+标注进度:  98%|█████████▊| 469/479 [42:02<00:45,  4.56s/it]
+标注进度:  98%|█████████▊| 470/479 [42:07<00:41,  4.56s/it]
+标注进度:  98%|█████████▊| 471/479 [42:11<00:36,  4.56s/it]
+标注进度:  99%|█████████▊| 472/479 [42:16<00:31,  4.56s/it]
+标注进度:  99%|█████████▊| 473/479 [42:21<00:27,  4.58s/it]
+标注进度:  99%|█████████▉| 474/479 [42:25<00:22,  4.57s/it]
+标注进度:  99%|█████████▉| 475/479 [42:30<00:18,  4.57s/it]
+标注进度:  99%|█████████▉| 476/479 [42:34<00:13,  4.57s/it]
+标注进度: 100%|█████████▉| 477/479 [42:39<00:09,  4.56s/it]
+标注进度: 100%|█████████▉| 478/479 [42:43<00:04,  4.56s/it]
+标注进度: 100%|██████████| 479/479 [42:48<00:00,  4.56s/it]
+标注进度: 100%|██████████| 479/479 [42:48<00:00,  5.36s/it]
+
+EXIT_CODE: 0
