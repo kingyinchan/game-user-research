@@ -24,8 +24,7 @@
 │  ├─ llm_label.py           # LLM 标注
 │  ├─ analyze.py             # 统计分析与出图
 │  └─ agent_runner.py        # Agent 任务运行入口
-├─ crawler/
-│  └─ MediaCrawler/          # 抓取器仓库
+├─ crawler/                  # 可选，本地存放外部抓取器（不随仓库提交）
 ├─ .env.example              # API 环境变量示例
 ├─ pyproject.toml            # 项目依赖
 └─ README.md
@@ -35,7 +34,7 @@
 
 - Python >= 3.10
 - 推荐使用 `uv`
-- 如果需要重新抓取数据，还需要进入 `crawler/MediaCrawler` 并按其说明准备浏览器和相关依赖
+- 如果需要重新抓取数据，需要单独准备外部抓取器 [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)
 
 本机当前已验证：
 
@@ -175,15 +174,21 @@ python analysis/agent_runner.py --task full_pipeline_report
 
 ### 方案 B：从抓取开始重跑全流程
 
-如果你要从头重新抓小红书数据，先进入抓取器目录：
+如果你要从头重新抓小红书数据，先把外部抓取器克隆到本地 `crawler/MediaCrawler`：
 
 ```bash
-cd crawler/MediaCrawler
+git clone https://github.com/NanmiCoder/MediaCrawler.git crawler/MediaCrawler
 ```
 
 抓取器本身的详细说明见：
 
-- [crawler/MediaCrawler/README.md](./crawler/MediaCrawler/README.md)
+- [MediaCrawler GitHub 仓库](https://github.com/NanmiCoder/MediaCrawler)
+
+然后进入抓取器目录：
+
+```bash
+cd crawler/MediaCrawler
+```
 
 按其说明完成依赖安装与登录后，常见入口命令是：
 
