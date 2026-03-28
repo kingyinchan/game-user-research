@@ -1,10 +1,11 @@
 ﻿# Demo 数据快照
 
-这个目录用于放可以直接随仓库展示的 demo 数据和启动脚本，不依赖重新抓数或重新调用 LLM。
+这个目录用于放可以直接随仓库展示的 demo 数据、页面截图和启动脚本，不依赖重新抓数或重新调用 LLM。
 
 ## 目录结构
 
 - `data/`：可直接被后端读取的 demo 快照
+- `figure/`：README 预览截图
 - `run_demo.py`：以指定快照启动 FastAPI 和 dashboard
 - `README.md`：demo 使用说明
 
@@ -28,6 +29,23 @@ python demo/run_demo.py
 
 - Dashboard：`http://127.0.0.1:8000/studio/`
 - API 文档：`http://127.0.0.1:8000/docs`
+
+## 页面预览
+
+### Dashboard Overview
+
+![Dashboard Overview](figure/overview.png)
+
+### Analysis Views
+
+<p align="center">
+  <img src="figure/overview2.png" alt="Dashboard Detail Overview" width="49%" />
+  <img src="figure/chart.png" alt="Chart View" width="49%" />
+</p>
+
+### Review Queue
+
+![Review Queue](figure/queue.png)
 
 ## 快照内容
 

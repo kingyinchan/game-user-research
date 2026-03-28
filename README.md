@@ -63,6 +63,23 @@ python demo/run_demo.py
 - Dashboard：`http://127.0.0.1:8000/studio/`
 - Demo 快照目录：`demo/data/wuwa_3_2_xigelika/`
 
+## 页面预览
+
+### Dashboard Overview
+
+![Dashboard Overview](demo/figure/overview.png)
+
+### Analysis Views
+
+<p align="center">
+  <img src="demo/figure/overview2.png" alt="Dashboard Detail Overview" width="49%" />
+  <img src="demo/figure/chart.png" alt="Chart View" width="49%" />
+</p>
+
+### Review Queue
+
+![Review Queue](demo/figure/queue.png)
+
 ## 启动后端与 Dashboard
 
 如需读取当前工作区的 `analysis/` 产物，而不是 demo 快照，可直接启动 FastAPI：
