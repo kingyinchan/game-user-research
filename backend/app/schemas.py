@@ -40,6 +40,8 @@ class DashboardResponse(BaseModel):
     label_source_counts: list[NamedCount]
     top_modules: list[NamedCount]
     charts: list[ChartAsset]
+    data_mode: Literal["analysis", "demo"] = "analysis"
+    data_source_label: str = ""
 
 
 class InsightReportResponse(BaseModel):

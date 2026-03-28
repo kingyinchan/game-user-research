@@ -56,7 +56,8 @@ uv run uvicorn backend.app.main:app --reload
 
 如果你只是想直接查看可展示产物，不想重新跑抓取或标注，可以直接看：
 
-- `demo/wuwa_3_2_xigelika/`
+- `demo/data/wuwa_3_2_xigelika/`
+- `python demo/run_demo.py`
 
 ## 安装依赖
 

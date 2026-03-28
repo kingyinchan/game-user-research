@@ -8,6 +8,8 @@ import yaml
 
 from backend.app.config import (
     CHART_TITLES,
+    DATA_SOURCE_LABEL,
+    DEMO_MODE,
     INSIGHT_REPORT_PATH,
     LABELED_COMMENTS_PATH,
     OUTPUT_DIR,
@@ -127,6 +129,8 @@ def get_dashboard() -> DashboardResponse:
             label_source_counts=[],
             top_modules=[],
             charts=get_chart_assets(),
+            data_mode="demo" if DEMO_MODE else "analysis",
+            data_source_label=DATA_SOURCE_LABEL,
         )
 
     labeled_df = df[df["sentiment"].notna()].copy()
@@ -159,6 +163,8 @@ def get_dashboard() -> DashboardResponse:
         label_source_counts=_named_counts(source_counter),
         top_modules=_named_counts(dict(module_counter.most_common(8))),
         charts=get_chart_assets(),
+        data_mode="demo" if DEMO_MODE else "analysis",
+        data_source_label=DATA_SOURCE_LABEL,
     )
 
 

@@ -18,6 +18,8 @@ const pipelineLabels = {
   running: 'Running',
   completed: 'Completed',
   failed: 'Failed',
+  available: 'Available',
+  missing: 'Missing',
 };
 
 const els = {
@@ -44,9 +46,7 @@ const els = {
 
 function formatModuleName(name) {
   if (!name) return '-';
-  return name
-    .replaceAll('_', ' / ')
-    .replace(/\b\w/g, (char) => char.toUpperCase());
+  return name.replaceAll('_', ' / ').replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
 function escapeHtml(text) {
@@ -59,9 +59,7 @@ function escapeHtml(text) {
 }
 
 function applyInlineMarkdown(text) {
-  return text
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>');
+  return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`([^`]+)`/g, '<code>$1</code>');
 }
 
 function markdownToHtml(markdown) {
@@ -208,6 +206,13 @@ function renderPipelineStatus(status) {
   els.pipelineLog.textContent = status.log_tail && status.log_tail.length ? status.log_tail.join('\n') : '暂无运行日志';
 }
 
+function configureRunButton(dashboard) {
+  const demoMode = dashboard.data_mode === 'demo';
+  els.runButton.disabled = demoMode;
+  els.runButton.textContent = demoMode ? 'Demo Snapshot' : '运行完整流';
+  els.runButton.title = demoMode ? `当前读取 demo 数据：${dashboard.data_source_label}` : '';
+}
+
 function renderReport(report) {
   setStatusChip(els.commentaryStatus, report.llm_commentary_status || 'missing');
   els.commentary.textContent = '';
@@ -237,8 +242,10 @@ async function loadDashboard() {
   ]);
 
   els.title.textContent = dashboard.topic.display_name;
-  els.subtitle.textContent = `${dashboard.topic.game} · ${dashboard.topic.version} · 目标角色 ${dashboard.topic.target}`;
+  const modeHint = dashboard.data_mode === 'demo' ? ' · Demo Snapshot' : '';
+  els.subtitle.textContent = `${dashboard.topic.game} · ${dashboard.topic.version} · 目标角色 ${dashboard.topic.target}${modeHint}`;
 
+  configureRunButton(dashboard);
   renderMetricCards(dashboard.metrics);
   renderBars(els.sentimentBars, dashboard.sentiment_counts, (name) => sentimentLabels[name] || name);
   renderBars(els.sourceBars, dashboard.label_source_counts, (name) => sourceLabels[name] || name);
@@ -250,6 +257,7 @@ async function loadDashboard() {
 }
 
 async function runPipeline() {
+  if (els.runButton.disabled) return;
   els.runButton.disabled = true;
   els.runButton.textContent = '启动中…';
   try {

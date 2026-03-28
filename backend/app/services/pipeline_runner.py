@@ -1,11 +1,11 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
-from backend.app.config import ROOT_DIR, RUNTIME_DIR
+from backend.app.config import DEMO_MODE, ROOT_DIR, RUNTIME_DIR
 from backend.app.schemas import PipelineRunResponse, PipelineStatusResponse
 
 
@@ -22,6 +22,8 @@ class PipelineRunner:
 
     def start(self, task: str) -> PipelineRunResponse:
         self._refresh_state()
+        if DEMO_MODE:
+            raise RuntimeError("???? demo ???????????????????????")
         if self._process and self._process.poll() is None:
             raise RuntimeError("已有任务在运行，请先等待当前任务结束。")
 
