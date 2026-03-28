@@ -57,6 +57,15 @@ def _named_counts(counter: Counter | dict[str, int]) -> list[NamedCount]:
     return [NamedCount(name=str(name), count=int(count)) for name, count in counter.items()]
 
 
+def _split_insight_report(markdown: str) -> tuple[str, str]:
+    marker = "## LLM Commentary"
+    if marker not in markdown:
+        return markdown.strip(), ""
+
+    deterministic, llm_section = markdown.split(marker, 1)
+    return deterministic.strip(), llm_section.strip()
+
+
 def get_topic_summary() -> TopicSummary:
     config = _load_project_config()
     topic = config.get("topic", {})
@@ -155,7 +164,18 @@ def get_dashboard() -> DashboardResponse:
 
 def get_insight_report() -> InsightReportResponse:
     markdown = INSIGHT_REPORT_PATH.read_text(encoding="utf-8") if INSIGHT_REPORT_PATH.exists() else ""
-    return InsightReportResponse(markdown=markdown)
+    deterministic_markdown, llm_commentary_markdown = _split_insight_report(markdown)
+    llm_commentary_available = bool(llm_commentary_markdown)
+    llm_commentary_status = "missing"
+    if llm_commentary_available:
+        llm_commentary_status = "failed" if llm_commentary_markdown.startswith("_LLM ???????") else "available"
+    return InsightReportResponse(
+        markdown=markdown,
+        deterministic_markdown=deterministic_markdown,
+        llm_commentary_markdown=llm_commentary_markdown,
+        llm_commentary_available=llm_commentary_available,
+        llm_commentary_status=llm_commentary_status,
+    )
 
 
 def get_comments(limit: int = 50, sentiment: str | None = None, label_source: str | None = None) -> CommentsResponse:

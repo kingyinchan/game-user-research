@@ -73,9 +73,13 @@ agents:
     base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
     model: "gemini-2.5-flash"
     temperature: 0.3
-    max_tokens: 1400
-    sample_size_per_bucket: 6
-    max_review_examples: 6
+    max_tokens: 2200
+    extra_body:
+      google:
+        thinking_config:
+          thinking_budget: 0
+    sample_size_per_bucket: 5
+    max_review_examples: 4
     top_module_limit: 5
 
 # -- 竞品列表（可选，用于后续分析） --

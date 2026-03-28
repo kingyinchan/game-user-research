@@ -135,19 +135,6 @@
       "content": "玩这个游戏的最痛苦的事：见一个爱一个"
     },
     {
-      "bucket": "negative_with_module",
-      "comment_id": "69b542ff000000000d011921",
-      "sentiment": "negative",
-      "module_tags": [
-        "剧情/任务"
-      ],
-      "is_target_related": false,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "评论对3.0版本前后索拉里斯阵营的角色关系或剧情完整性表达了负面看法。",
-      "content": "3.0之前全索拉里斯凑不出一个完整的家庭，3.0之后……"
-    },
-    {
       "bucket": "negative_without_module",
       "comment_id": "69b545b6000000001d00b427",
       "sentiment": "negative",
@@ -201,17 +188,6 @@
       "pay_risk": "low",
       "summary_reason": "对游戏内容表达极度不满，流失风险高。",
       "content": "这下真是挑粪的了"
-    },
-    {
-      "bucket": "negative_without_module",
-      "comment_id": "69b96d0b00000000010057bb",
-      "sentiment": "negative",
-      "module_tags": [],
-      "is_target_related": false,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "表达对某人或角色不满，使用恶语",
-      "content": "还是给河南妮，清早起来去拾粪……"
     },
     {
       "bucket": "mixed",
@@ -282,19 +258,6 @@
       "content": "确实可爱，就是脸有点圆"
     },
     {
-      "bucket": "mixed",
-      "comment_id": "69b405a0000000001d00a69e",
-      "sentiment": "mixed",
-      "module_tags": [
-        "抽卡/角色"
-      ],
-      "is_target_related": true,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "对目标角色有猜测性质的表达，未明确情感或意愿。",
-      "content": "怀疑我们小橘子被策划内涵了"
-    },
-    {
       "bucket": "target_negative",
       "comment_id": "6993484100000000060332bc",
       "sentiment": "negative",
@@ -322,6 +285,19 @@
     },
     {
       "bucket": "target_negative",
+      "comment_id": "69b405a0000000001d00a69e",
+      "sentiment": "mixed",
+      "module_tags": [
+        "抽卡/角色"
+      ],
+      "is_target_related": true,
+      "churn_risk": "low",
+      "pay_risk": "low",
+      "summary_reason": "对目标角色有猜测性质的表达，未明确情感或意愿。",
+      "content": "怀疑我们小橘子被策划内涵了"
+    },
+    {
+      "bucket": "target_negative",
       "comment_id": "69841bac000000000f02d1d4",
       "sentiment": "negative",
       "module_tags": [
@@ -346,33 +322,6 @@
       "pay_risk": "low",
       "summary_reason": "明显在讨论性能/优化负面体验。",
       "content": "西格莉卡的闺蜜怎么都是残星会相关"
-    },
-    {
-      "bucket": "target_negative",
-      "comment_id": "69b4c2b1000000000203781b",
-      "sentiment": "negative",
-      "module_tags": [
-        "抽卡/角色",
-        "性能/bug"
-      ],
-      "is_target_related": true,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "明显在讨论性能/优化负面体验。",
-      "content": "如果太刀姐张那样的话我真要抽西格丽卡了，太戳我了"
-    },
-    {
-      "bucket": "target_negative",
-      "comment_id": "69a322850000000005030676",
-      "sentiment": "negative",
-      "module_tags": [
-        "性能/bug"
-      ],
-      "is_target_related": true,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "明显在讨论性能/优化负面体验。",
-      "content": "本嘉豪将严肃攻略西格莉卡"
     },
     {
       "bucket": "target_positive",
@@ -436,19 +385,6 @@
       "pay_risk": "low",
       "summary_reason": "表达对目标角色的喜爱和赞美。",
       "content": "太可爱啦宝宝"
-    },
-    {
-      "bucket": "target_positive",
-      "comment_id": "6984304a000000000d010d6f",
-      "sentiment": "positive",
-      "module_tags": [
-        "抽卡/角色"
-      ],
-      "is_target_related": true,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "高置信目标角色正向表达。",
-      "content": "好可爱啊啊啊啊啊小橘子蛋糕！是c还是辅哇"
     },
     {
       "bucket": "high_risk",
@@ -553,28 +489,6 @@
       "pay_risk": "low",
       "summary_reason": "高置信提问/咨询型评论。",
       "content": "达尼亚美成啥了。。。不过绯雪看着很奇怪，有点像战双早期马脸。。不应该啊，周年庆大c为啥长这样"
-    },
-    {
-      "bucket": "review_queue",
-      "comment_id": "69bbb2f3000000000c03062c",
-      "sentiment": "neutral",
-      "module_tags": [],
-      "is_target_related": false,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "高置信提问/咨询型评论。",
-      "content": "怎么办我的三观快要跟着五官跑了理性上知道达妮娅目前表现出来的做法肯定是不对的但是她好漂亮我觉得她肯定有苦衷欸不对有苦衷这样做也不对"
-    },
-    {
-      "bucket": "review_queue",
-      "comment_id": "69bba7f2000000000d03fdc2",
-      "sentiment": "neutral",
-      "module_tags": [],
-      "is_target_related": true,
-      "churn_risk": "low",
-      "pay_risk": "low",
-      "summary_reason": "对角色名称产生误解，表达歉意。",
-      "content": "不好意思不好意思大家，喊成粑粑柑是因为平时我是真的这么喊这个水果，完全没有注意到原来是耙耙柑……"
     }
   ]
 }

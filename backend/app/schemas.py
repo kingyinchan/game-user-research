@@ -44,6 +44,10 @@ class DashboardResponse(BaseModel):
 
 class InsightReportResponse(BaseModel):
     markdown: str
+    deterministic_markdown: str = ""
+    llm_commentary_markdown: str = ""
+    llm_commentary_available: bool = False
+    llm_commentary_status: Literal["missing", "available", "failed"] = "missing"
 
 
 class ReviewQueueRow(BaseModel):
