@@ -1,0 +1,15 @@
+﻿{
+  "snapshot_name": "wuwa_3_2_xigelika",
+  "created_at": "2026-03-28",
+  "topic": "鸣潮 3.2 西格莉卡专题",
+  "labeled_comments": 488,
+  "total_comments": 526,
+  "review_queue": 187,
+  "files": {
+    "labeled_comments_csv": "data/comments_labeled.csv",
+    "cleaned_comments_csv": "data/comments_cleaned.csv",
+    "routing_report_json": "data/label_routing_report.json",
+    "insight_report_md": "reports/insight_report.md",
+    "review_queue_csv": "reports/label_review_queue.csv"
+  }
+}

@@ -54,6 +54,10 @@ uv run uvicorn backend.app.main:app --reload
 - API 文档：`http://127.0.0.1:8000/docs`
 - Dashboard：`http://127.0.0.1:8000/studio/`
 
+如果你只是想直接查看可展示产物，不想重新跑抓取或标注，可以直接看：
+
+- `demo/wuwa_3_2_xigelika/`
+
 ## 安装依赖
 
 推荐方式：
